@@ -31,7 +31,7 @@
         <p class="date-fixed"><span class="month">May</span><br><span class="day">2020</span></p>
       </div>
       <div class="fixedbox" id="media-box"></div>
-      <div class="fixedbox" id="number-tweets-container"><p class="number-tweet-info"><span class="number-tweets">978 tweets</span><br><span class="w-proudboys">with #ProudBoys </span><br><span class="that-month">that month</span></p></div>
+      <div class="fixedbox" id="number-tweets-container"><p class="number-tweet-info"><span class="number-tweets">? tweets</span><br><span class="w-proudboys">with #millionMAGAmarch </span><br><span class="that-month">that month</span></p></div>
       <div class="fixedbox" id="media-box-2"></div>
     </div>
     <div id="image-wraper-story">
