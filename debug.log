@@ -24,3 +24,12 @@
 [0130/184819.091:ERROR:crash_report_database_win.cc(455)] unexpected header
 [0130/190319.097:ERROR:crash_report_database_win.cc(455)] unexpected header
 [0130/191819.108:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/193319.115:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/194819.121:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/200319.127:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/201819.135:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/203319.147:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/204819.156:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0130/205809.554:ERROR:process_info.cc(359)] UncheckedAllocate
+[0130/205809.554:ERROR:process_info.cc(359)] UncheckedAllocate
+[0130/205809.618:ERROR:crash_report_database_win.cc(455)] unexpected header
