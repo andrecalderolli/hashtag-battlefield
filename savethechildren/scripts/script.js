@@ -27,7 +27,7 @@ $(".startbtn").click(function(){
   startStory();
   setTimeout(
     function() {
-      $("#story-content").load("proudboys.xml");
+      $("#story-content").load("savethechildren.xml");
       $.getScript("scripts/script-story.js");
       $("#opening-content").animate({opacity: 0}, 2000);
     }, 3500);
