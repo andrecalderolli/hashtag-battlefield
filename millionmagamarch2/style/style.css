@@ -1,0 +1,136 @@
+body {
+  /*background-color: blue;*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #efefef;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5vw;
+  margin: 0;
+  font-weight: 500;
+}
+
+.start {
+  text-decoration: underline;
+}
+
+#wraper {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  font-size: 0;
+  text-align: left;
+  position: absolute;
+  /*top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+}
+
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  background-color: #efefef;
+  border: 1px solid white;
+  color: black;
+  position: relative;
+}
+
+.box2 {
+  text-align: left;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 3.8vh;
+  overflow-y: scroll;
+}
+
+.off {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.btn {
+  text-align: center !important;
+}
+
+.about {
+  color: #4568e9;
+}
+
+#image-wraper {
+  height: 100%;
+  width: 62.5%;
+  position: absolute;
+  font-size: 0;
+  text-align: center;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  padding: 0;
+  /*top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+}
+
+.photo1 {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  position: relative;
+  height: 100%;
+}
+
+#image-open {
+  background-image: url("../assets/proudboy-intro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  z-index: 1000;
+  font-family: 'IBM Plex Mono', monospace;
+  top: 20%;
+  left: 11%;
+}
+
+.intro-text {
+  font-size: 1vw;
+  width: 90%;
+  top: 1.8vh;
+  left: 1.5vw;
+  margin-bottom: 3vh;
+  transform: translate(0,0);
+}
+
+h1 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.new-divs {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  font-size: 0;
+  text-align: left;
+  position: absolute;
+  z-index: -1;
+}
+
+.invisible {
+  overflow: hidden;
+}

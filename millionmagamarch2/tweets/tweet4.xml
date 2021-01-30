@@ -1,0 +1,5 @@
+<div class="tweet-media"><video class="tweet-image" controls>
+  <source src="tweets/images/TWEET4.mp4" type="video/mp4">
+    The video shows...
+</video></div>
+<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE4.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Pattern Integrity Films</span><br><span class="handle">@pttrn_ntgrty</span></p></div><div class="text-container"><p class="paragraph">#ProudBoys #AmericaWakeUp #Debate2020   https://t.co/4dSIhogXn2</p></div></div></div>
