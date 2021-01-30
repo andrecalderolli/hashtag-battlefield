@@ -83,12 +83,12 @@ $(".close-btn2").click(function() {
 
 $(".close-btn").click(function() {
   //sets what happens in september
-  if(clicks == 2) {
+  if(clicks == 4) {
     $(".month").empty();
     $(".month").append("Sep");
     $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 300);
     $(".date-fixed").css("opacity", 1).animate({opacity: 0}, 300);
-    $(".number-tweets").empty().append("16K tweets");
+    $(".number-tweets").empty().append("? tweets");
     $(".that-month").empty();
     $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
@@ -102,10 +102,10 @@ $(".close-btn").click(function() {
       }
     , 400)
     //october
-  } if (clicks == 7) {
+  } if (clicks == 5) {
     $(".month").empty();
     $(".month").append("Oct");
-    $(".number-tweets").empty().append("109K tweets");
+    $(".number-tweets").empty().append("? tweets");
     $("#narrator-box").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#date-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#number-tweets-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
@@ -118,10 +118,10 @@ $(".close-btn").click(function() {
         $(".narrator-text").load("narration/narration3.xml").animate({opacity: 1}, 800)
       }
     , 900)
-  } if (clicks == 12) {
+  } if (clicks == 8) {
     $(".month").empty();
     $(".month").append("Nov");
-    $(".number-tweets").empty().append("19K tweets");
+    $(".number-tweets").empty().append("? tweets");
     $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
@@ -133,21 +133,7 @@ $(".close-btn").click(function() {
         $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 800)
       }
     , 900)
-  } if (clicks == 17) {
-    $(".month").empty();
-    $(".month").append("Dec");
-    $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $(".number-tweets").empty().append("13K tweets");
-    $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
-    setTimeout(
-      function() {
-        $(".narrator-text").empty();
-        $(".narrator-text").load("narration/narration5.xml").animate({opacity: 1}, 800)
-      }
-    , 900)
-  } if (clicks == 19) {
+  } if (clicks == 11) {
     $("#date-container").children().remove();
     $("#date-container").css("background-color", "#4568e9").append("<p class='next'>MENU</p>");
   //  $("#media-box").css("opacity", 1).css("background-color", "#FF6679").append("<p class='next'>#millionMAGAmarch</p>");

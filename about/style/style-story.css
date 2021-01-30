@@ -62,14 +62,11 @@
 }
 
 #box12, #box17 {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 #footer {
-  height: 200px !important;
-  width: 120% !important;
-  margin-left: -20%;
-  background-color: black !important;
+  background-color: black;
 }
 
 .tweet {
