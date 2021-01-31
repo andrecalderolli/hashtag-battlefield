@@ -360,7 +360,7 @@
 .profile-image-container {
   position: relative;
   display: inline-block;
-  height: 45px;
+  height: 38px;
   margin-top: 10px;
   margin-left: 15px;
   border-radius: 50%;
@@ -369,7 +369,7 @@
 }
 
 .profile-image {
-  height: 90%;
+  height: 100%;
   width: auto;
   object-fit: cover;
   position: relative;
