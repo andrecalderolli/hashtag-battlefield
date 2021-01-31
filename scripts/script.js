@@ -69,7 +69,7 @@ $(document).ready(function() {
           }, 1000);
       }, 4000);
 
-      $("#launch-video").click(function () {
+      $(".launch-video").click(function () {
         $("#box11").animate({opacity: 0}, 400);
         $("#box12").animate({opacity: 0}, 600);
         $("#box13").animate({opacity: 0}, 800);

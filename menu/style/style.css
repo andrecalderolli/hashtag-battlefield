@@ -19,6 +19,8 @@ p.title {
   font-size: 1.3vw;
   margin: 0;
   font-weight: 400;
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
 }
 
 p.tag-selection {
