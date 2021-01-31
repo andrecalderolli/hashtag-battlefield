@@ -24,6 +24,17 @@
   cursor: pointer;
 }
 
+/*.return {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}*/
+
+.return:hover {
+  cursor: pointer;
+}
+
 #wraper-story {
   width: 75%;
   height: auto;

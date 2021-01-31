@@ -163,7 +163,8 @@ $(".close-btn").click(function() {
     , 900)
   } if (clicks == 19) {
     $("#date-container").children().remove();
-    $("#date-container").css("background-color", "#4568e9").append("<p class='next'>MENU</p>");
+    $("#date-container").wrap("<a href='../index.html'></a>")
+    $("#date-container").css("background-color", "#4568e9").addClass("return").append("<p class='next'>< MENU</p>");
   //  $("#media-box").css("opacity", 1).css("background-color", "#FF6679").append("<p class='next'>#millionMAGAmarch</p>");
   //  $("#media-box2").css("background-color", "#FFD91A").append("<p class='next'>#SaveTheChildren</p>");
     $(".next").css("opacity", 0).animate({opacity: 1}, 800);
