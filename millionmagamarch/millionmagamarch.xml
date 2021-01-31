@@ -27,7 +27,7 @@
           <p class="narrator-text"></p>
         <!--<p class="narrator-text">This story begun way before many of us even knew what “#ProudBoys” stood for, but I decided to tell you from May, when the white nationalist group first started to make noise in 2020, spreading conspiracy theories about covid-19 and encouraging and organizing violent crimes.</p>-->
       </div>
-      <div class="fixedboxy" id="date-container">
+      <div class="fixedbox" id="date-container">
         <p class="date-fixed"><span class="month">May</span><br><span class="day">2020</span></p>
       </div>
       <div class="fixedbox" id="media-box"></div>
