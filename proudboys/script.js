@@ -24,12 +24,12 @@ function startStory() {
 }
 
 $(".startbtn").click(function(){
-  startStory();
+  //startStory();
   setTimeout(
     function() {
       $("#story-content").load("proudboys.xml");
-      $.getScript("scripts/script-story.js");
       $("#opening-content").animate({opacity: 0}, 2000);
+      $.getScript("script-story.js")
     }, 3500);
     setTimeout(
       function() {
