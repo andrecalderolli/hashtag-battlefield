@@ -360,7 +360,7 @@
 .profile-image-container {
   position: relative;
   display: inline-block;
-  height: 45px;
+  height: 38px;
   margin-top: 10px;
   margin-left: 15px;
   border-radius: 50%;
@@ -420,14 +420,14 @@ p.paragraph {
 
 .account-name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   display: table-cell;
   vertical-align: text-top;
 }
 
 .handle {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .tweet-image {
