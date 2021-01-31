@@ -1,5 +1,4 @@
-<div class="tweet-media"></div>
-<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE9.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">David Weissman</span><br><span class="handle">@davidmweissman</span></p></div><div class="text-container">
+<div id="tweet-text" class="tweet-text no-media"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE9.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">David Weissman</span><br><span class="handle">@davidmweissman</span></p></div><div class="text-container">
 <p class="paragraph">Look up what’s trending now on #ProudBoys. You’re welcome, Internet.</p></div></div><div class="tweet-info">
 <div id="space1" class="space rts"><div class="icon"><img src="assets/icons/Retweet.svg" alt="retweet icon"></div><p class="tweet-info-text">25.4K</p></div>
 <div id="space2" class="space likes"><div class="icon"><img src="assets/icons/Like.svg" alt="like icon"></div><p class="tweet-info-text">151.7K</p></div>

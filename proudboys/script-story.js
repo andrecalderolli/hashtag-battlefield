@@ -25,9 +25,16 @@ var incrementCount = function(){
 
 function popupTweet() {
   var elmId = $(event.target).parent().attr("id");
-  $(".popup-overlay").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
   $(".tweet-content").empty();
-  $(".tweet-content").load("tweets/"+elmId+".xml")
+  $(".tweet-content").load("tweets/"+elmId+".xml");
+  setTimeout(
+    function() {
+    if($("#tweet-text").hasClass("no-media")) {
+      $(".popup-overlay3").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
+      $(".tweet-text").css("height", "100%");
+    } else {
+      $(".popup-overlay").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
+  }}, 100)
 };
 
 function popupMedia() {
@@ -71,6 +78,14 @@ $(".close-btn").click(function() {
   }, 700)
 })
 
+$(".close-btn3").click(function() {
+  $(".popup-overlay3").animate({opacity: 0}, 700);
+  setTimeout (function() {
+    $(".popup-overlay3").css("visibility", "hidden");
+    $(".tweet-content").empty();
+  }, 700)
+})
+
 $(".close-btn2").click(function() {
   $(".popup-overlay2").animate({opacity: 0}, 700);
   setTimeout (function() {
@@ -90,9 +105,15 @@ $(".close-btn").click(function() {
     $(".date-fixed").css("opacity", 1).animate({opacity: 0}, 300);
     $(".number-tweets").empty().append("16K tweets");
     $(".that-month").empty();
-    $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    )
+  //  $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#media-box").css("opacity", 0).addClass("media1", 300, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media1' onclick='popupMedia()'></button>");
     setTimeout(
       function() {
@@ -106,9 +127,10 @@ $(".close-btn").click(function() {
     $(".month").empty();
     $(".month").append("Oct");
     $(".number-tweets").empty().append("109K tweets");
-    $("#narrator-box").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+    $("#content-wraper").addClass("inner-glow1");
+  //  $("#narrator-box").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#date-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#number-tweets-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
     $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media1", 800);
     $("#media-box").addClass("media2", 800, "swing").animate({opacity: 0.6}, 800).append("<button class='clickable' id='media2' onclick='popupMedia()'></button>");
@@ -121,9 +143,9 @@ $(".close-btn").click(function() {
   } if (clicks == 12) {
     $(".month").empty();
     $(".month").append("Nov");
-    $(".number-tweets").empty().append("19K tweets");
-    $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $(".number-tweets").empty().append("19K tweets");
+  //  $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
     $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media2", 800);
@@ -136,9 +158,9 @@ $(".close-btn").click(function() {
   } if (clicks == 17) {
     $(".month").empty();
     $(".month").append("Dec");
-    $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+  //  $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $(".number-tweets").empty().append("13K tweets");
     $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
     setTimeout(

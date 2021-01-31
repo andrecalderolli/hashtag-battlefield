@@ -221,6 +221,7 @@
 .clickHere {
   text-transform: uppercase;
   font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
 }
 
 .clickNext {
@@ -247,7 +248,7 @@
 
 /* popup */
 
-.popup-overlay {
+.popup-overlay,.popup-overlay3 {
   height: 100%;
   width: 75%;
   position: absolute;
@@ -286,6 +287,23 @@
   overflow: hidden;
 }
 
+.popup-box3 {
+  height: 35%;
+  width: 55%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background-color: #efefef;
+  text-align: center;
+  border: 1vw solid #efefef;
+  border-top: 2.5vh solid #efefef;
+  border-bottom: 2.5vh solid #efefef;
+  /*box-shadow: 1px 1px 15px black;*/
+  overflow: hidden;
+}
+
 .close-btn {
   height: 14.5%;
   width: 17.8%;
@@ -294,6 +312,20 @@
   right: 5px;
   z-index: 1000;
 }
+
+.close-btn3 {
+  height: 50%;
+  width: 17.8%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1000;
+}
+
+.close-btn3:hover {
+  cursor: pointer;
+}
+
 
 .continue-text {
   position: absolute;
@@ -312,6 +344,20 @@
   background-position: center center;
   background-size: cover;
   position: fixed;
+}
+
+#content-wraper2 {
+  -moz-box-shadow:    inset 0 0 20px #4364ed;
+   -webkit-box-shadow: inset 0 0 20px #4364ed;
+   box-shadow:         inset 0 0 20px #4364ed;
+   height: 100%;
+   width: 25%;
+   position: absolute;
+   font-size: 0;
+   text-align: center;
+   left: 0;
+   top: 0;
+   visibility: hidden;
 }
 
 .close-btn:hover {
@@ -455,7 +501,7 @@ p.account {
   position: relative;
   width: auto;
   margin-top: 1.5vh;
-  margin-left: 5vw;
+  margin-left: 1vw;
   margin-right: 15px;
 }
 

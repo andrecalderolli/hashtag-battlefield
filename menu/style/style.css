@@ -21,6 +21,7 @@ p.title {
   font-weight: 400;
   font-family: "IBM Plex Mono", monospace;
   text-transform: uppercase;
+  letter-spacing: 0.3vw;
 }
 
 p.tag-selection {
@@ -80,4 +81,29 @@ p.tag-selection {
 /*  font-family: 'IBM Plex Serif', serif;*/
   line-height: 3.8vh;
   text-transform: uppercase;
+}
+
+#mmm-btn {
+  background-image: url("../assets/mmm.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#pb-btn {
+  background-image: url("../assets/pb.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#stc-btn {
+  background-image: url("../assets/stc.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hovering-btn {
+  background-image: url("none") !important;
 }
