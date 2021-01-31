@@ -1,5 +1,17 @@
-<div class="tweet-media"><video class="tweet-image" controls>
-  <source src="tweets/images/TWEET16.mp4" type="video/mp4">
-    The video shows...
+<video class="tweet-image" controls>
+<source src="tweets/images/TWEET16.mp4" type="video/mp4">
+  Your browser doesn't support this video
 </video></div>
-<div class="tweet-text"><p class="paragraph">The Proud Boys are marching through the streets of downtown and a corresponding group of Antifa is on the move as well. Both groups are looking to clash with each orher by beating the cops to a mutual intersection. Stay tuned for more battleground footage. #Antifa #ProudBoys  https://t.co/5m7VxGoUmf</p></div>
+<div class="tweet-text">
+<div class="white-box">
+  <div class="profile-image-container">
+    <img src="tweets/images/PROFILE16.jpg" class="profile-image">
+  </div>
+  <div class="account-container">
+    <p class="account"><span class="account-name">Andrew Pollack</span><br><span class="handle">@andrewpollackfl</span></p>
+  </div>
+  <div class="text-container">
+    <p class="paragraph">Would you ever hear Biden supporters saying this? #MillionMAGAMarch https://t.co/ajE6l8QgjU</p>
+  </div>
+</div>
+</div>

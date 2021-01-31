@@ -1,5 +1,17 @@
-<div class="tweet-media"><video class="tweet-image" controls>
-  <source src="tweets/images/TWEET15.mp4" type="video/mp4">
-    The video shows...
+<video class="tweet-image" controls>
+<source src="tweets/images/TWEET15.mp4" type="video/mp4">
+  Your browser doesn't support this video
 </video></div>
-<div class="tweet-text"><p class="paragraph">I’ve never seen so much small dick energy and missing teeth concentrated into one place. #ProudBoys #MillionMoronMarch   https://t.co/M3RMHd3sg1</p></div>
+<div class="tweet-text">
+<div class="white-box">
+  <div class="profile-image-container">
+    <img src="tweets/images/PROFILE15.jpg" class="profile-image">
+  </div>
+  <div class="account-container">
+    <p class="account"><span class="account-name">Jorge Ventura Media</span><br><span class="handle">@venturareport</span></p>
+  </div>
+  <div class="text-container">
+    <p class="paragraph">DC Police blocked off BLM again so Trump supporters couldn't get through and were made to go through BLM group which then attacked them. #MillionMAGAMarch https://t.co/tS7YTEe51X</p>
+  </div>
+</div>
+</div>

@@ -1,2 +1,12 @@
 <div class="tweet-media"><img src="tweets/images/TWEET8.jpg" class="tweet-image"></div>
-<div class="tweet-text"><p class="paragraph">🇨🇦🏳️‍🌈 #ProudBoys  https://t.co/rEFL7xIqXu</p></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE8.jpg" class="profile-image">
+      </div>
+      <div class="account-container"><p class="account"><span class="account-name">Joc ◡̈⃝</span><br><span class="handle">@JocelynCal_</span></p></div><div class="text-container">
+      <p class="paragraph">People showed out to Hollywood today!! ✊🏼 I’m proud af <span class=“link”>#SAVETHECHILDREN  https://t.co/ZnqHc2VXaN</span>
+    </p>
+  </div>
+</div>
+</div>

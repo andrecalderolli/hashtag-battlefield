@@ -1,2 +1,12 @@
-<div class="tweet-media"></div>
-<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE3.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Melissa</span><br><span class="handle">@TheRightMelissa</span></p></div><div class="text-container"><p class="paragraph">#ProudBoys 👏🏾 are 👏🏾 not👏🏾white 👏🏾 Supremacist 👏🏾  Many of them are Hispanic & black. @JakeTapper is a liar</p></div></div></div>
+<div class="tweet-media"><img src="tweets/images/TWEET3.jpg" class="tweet-image"></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE3.jpg" class="profile-image">
+      </div>
+      <div class="account-container"><p class="account"><span class="account-name">Chumel Torres</span><br><span class="handle">@ChumelTorres</span></p></div><div class="text-container">
+      <p class="paragraph">7 de cada 10 niños y niñas en #México viven violencia, las secuelas son de por vida.  <span class=“link”>#SavetheChildren</span> crea espacios de convivencia seguros y protege sus sueños. ¡Te necesitamos!  No dejes morir sus sueños #SinNiñezNoHayFuturo  ¡Porfa súmate y comparte!  <span class=“link”>https://t.co/KSru1y25lY</span>
+    </p>
+  </div>
+</div>
+</div>

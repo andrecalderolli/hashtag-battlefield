@@ -1,2 +1,18 @@
-<div class="tweet-media"><img src="tweets/images/TWEET12.jpg" class="tweet-image"></div>
-<div class="tweet-text"><p class="paragraph">Proud Boys on standby   #ProudBoys #MarchForTrump #MillionsMAGAMarch  https://t.co/leoyIOUfWr</p></div>
+<div class="tweet-media">
+  <video class="tweet-image" controls>
+  <source src="tweets/images/TWEET12.mp4" type="video/mp4">
+    Your browser doesn't support this video
+</video></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE12.jpg" class="profile-image">
+    </div>
+    <div class="account-container">
+      <p class="account"><span class="account-name">Andy Ngô</span><br><span class="handle">@mrandyngo</span></p>
+    </div>
+    <div class="text-container">
+      <p class="paragraph">A family with children are in tears as they are followed and harassed by antifa. #MillionMAGAMarch https://t.co/Kb8f2sJ1e5</p>
+    </div>
+  </div>
+</div>

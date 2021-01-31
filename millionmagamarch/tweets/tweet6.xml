@@ -1,2 +1,12 @@
 <div class="tweet-media"><img src="tweets/images/TWEET6.jpg" class="tweet-image"></div>
-<div class="tweet-text"><p class="paragraph">I support these #ProudBoys Show me the #ProudBoys that you support! Let's flip the script!  https://t.co/ngR2owVAct</p></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE6.jpg" class="profile-image">
+      </div>
+      <div class="account-container"><p class="account"><span class="account-name">Women for Trump</span><br><span class="handle">@womenfortrump</span></p></div><div class="text-container">
+      <p class="paragraph">So excited to have Congressman @LouieGohmertTX1 join us tomorrow for the #MarchForTrump in Washington, DC. It’s not too late to join us 🇺🇸Sat, NOV 14th 🇺🇸12PM 🇺🇸Freedom Plaza - Washington, DC #stopthesteal #MillionMAGAMarch #WomenForTrump #TXgop https://t.co/y7RT3cWs9U
+    </p>
+  </div>
+</div>
+</div>

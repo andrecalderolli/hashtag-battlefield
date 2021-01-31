@@ -1,5 +1,18 @@
-<div class="tweet-media"><video class="tweet-image" controls>
-  <source src="tweets/images/TWEET14.mp4" type="video/mp4">
-    The video shows...
+<div class="tweet-media">
+<video class="tweet-image" controls>
+<source src="tweets/images/TWEET14.mp4" type="video/mp4">
+  Your browser doesn't support this video
 </video></div>
-<div class="tweet-text"><p class="paragraph">#MillionMoronMarch How the #ProudBoys princess party is actually going.  March on Buttercups  https://t.co/lGeGNJi2w1</p></div>
+<div class="tweet-text">
+<div class="white-box">
+  <div class="profile-image-container">
+    <img src="tweets/images/PROFILE14.jpg" class="profile-image">
+  </div>
+  <div class="account-container">
+    <p class="account"><span class="account-name">Andy Ngô</span><br><span class="handle">@mrandyngo</span></p>
+  </div>
+  <div class="text-container">
+    <p class="paragraph">BLM-antifa rioters hurl projectiles and an explosive at people having dinner after the #MillionMAGAMarch in DC. https://t.co/syDM7YQFrS</p>
+  </div>
+</div>
+</div>

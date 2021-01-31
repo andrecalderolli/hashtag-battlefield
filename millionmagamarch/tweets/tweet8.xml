@@ -1,2 +1,11 @@
-<div class="tweet-media"><img src="tweets/images/TWEET8.jpg" class="tweet-image"></div>
-<div class="tweet-text"><p class="paragraph">🇨🇦🏳️‍🌈 #ProudBoys  https://t.co/rEFL7xIqXu</p></div>
+<div class="tweet-media"></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE8.jpg" class="profile-image">
+      </div><div class="account-container">
+      <p class="account"><span class="account-name">samanthamarika</span><br><span class="handle">@samanthamarika1</span></p></div><div class="text-container">
+      <p class="paragraph">The youngsters from TikTok are flooding the #MillionMAGAMarch hashtag with pictures of pancakes. I love them so much. 🤣</p>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,12 @@
-<div class="tweet-media"><video class="tweet-image" controls>
-  <source src="tweets/images/TWEET4.mp4" type="video/mp4">
-    The video shows...
-</video></div>
-<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE4.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Pattern Integrity Films</span><br><span class="handle">@pttrn_ntgrty</span></p></div><div class="text-container"><p class="paragraph">#ProudBoys #AmericaWakeUp #Debate2020   https://t.co/4dSIhogXn2</p></div></div></div>
+<div class="tweet-media"><img src="tweets/images/TWEET4.jpg" class="tweet-image"></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE4.jpg" class="profile-image">
+      </div>
+      <div class="account-container"><p class="account"><span class="account-name">Anders Corr, Ph.D.</span><br><span class="handle">@anderscorr</span></p></div><div class="text-container">
+      <p class="paragraph">Senator Mitch McConnell, please save the <span class=“link”>#children</span> and <span class=“link”>#families</span> of <span class=“link”>#HongKong</span> from cancerous Chinese tear gas. Time to get the <span class=“link”>#HongKongHumanRightsAndDemocracyAct</span> passed! <span class=“link”>@senatemajldr #SaveTheChildren #childrights #dayofthechild #childhoodcancerday #child #kids #family #baby</span>
+      </p>
+  </div>
+</div>
+</div>

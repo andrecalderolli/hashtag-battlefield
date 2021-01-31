@@ -1,2 +1,12 @@
 <div class="tweet-media"><img src="tweets/images/TWEET6.jpg" class="tweet-image"></div>
-<div class="tweet-text"><p class="paragraph">I support these #ProudBoys Show me the #ProudBoys that you support! Let's flip the script!  https://t.co/ngR2owVAct</p></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE6.jpg" class="profile-image">
+      </div>
+      <div class="account-container"><p class="account"><span class="account-name">Laydee</span><br><span class="handle">@TrillEmpress</span></p></div><div class="text-container">
+      <p class="paragraph">When people say “child sex trafficking rings in the US are a “conspiracy” remind them that 460K children are reported missing every year <span class=“link”>#SaveTheChildren #pizzgate #wayfair  https://t.co/eXQy9CXPXp</span>
+    </p>
+  </div>
+</div>
+</div>

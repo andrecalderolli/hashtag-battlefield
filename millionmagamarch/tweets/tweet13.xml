@@ -1,2 +1,18 @@
-<div class="tweet-media"><img src="tweets/images/TWEET13.jpg" class="tweet-image"></div>
-<div class="tweet-text"><p class="paragraph">Fascism can't happen here?  You're seeing it RIGHT NOW.  Trump will go down, but our democracy will continue to be threatened by the treasonous GOP &amp; their MAGA Cult.  #MillionMoronMarch #MarchForTrump #ProudBoys #SorryToBurstYourBubbleBut Release the Kraken Lou Dobbs Bill Maher  https://t.co/pd0PX6cYCG</p></div>
+<div class="tweet-media">
+  <video class="tweet-image" controls>
+  <source src="tweets/images/TWEET13.mp4" type="video/mp4">
+    Your browser doesn't support this video
+</video></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE13.jpg" class="profile-image">
+    </div>
+    <div class="account-container">
+      <p class="account"><span class="account-name">Andy Ngô</span><br><span class="handle">@mrandyngo</span></p>
+    </div>
+    <div class="text-container">
+      <p class="paragraph">Young couple in DC followed by crowd of BLM-antifa thugs who hit them and throw liquid on them. #MillionMAGAMarch https://t.co/Lqo4evvviK</p>
+    </div>
+  </div>
+</div>

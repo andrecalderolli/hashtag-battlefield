@@ -1,5 +1,18 @@
-<div class="tweet-media"><video class="tweet-image" controls>
+<div class="tweet-media">
+  <video class="tweet-image" controls>
   <source src="tweets/images/TWEET17.mp4" type="video/mp4">
-    The video shows...
+    Your browser doesn't support this video
 </video></div>
-<div class="tweet-text"><p class="paragraph">Well over a thousand Proud Boys now marching through the streets, police only able to disperse them away from individual intersections before they mobilize around #DC #ProudBoys #DefendDC  https://t.co/2A8vefrw7Z</p></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE17.jpg" class="profile-image">
+    </div>
+    <div class="account-container">
+      <p class="account"><span class="account-name">Andy Ngô</span><br><span class="handle">@mrandyngo</span></p>
+    </div>
+    <div class="text-container">
+      <p class="paragraph">There was a lot of violence today against attendees of the #MillionMAGAMarch. Now, a large crowd sings the American national anthem outside the Willard Hotel in DC. Video by @BGOnTheScene: https://t.co/kq8PDv7Xfq</p>
+    </div>
+  </div>
+</div>

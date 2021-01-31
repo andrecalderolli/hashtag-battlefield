@@ -1,2 +1,12 @@
 <div class="tweet-media"><img src="tweets/images/TWEET1.jpg" class="tweet-image"></div>
-<div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE1.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Fata Morgana</span><br><span class="handle">@maladamus</span></p></div><div class="text-container"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div></div></div>
+<div class="tweet-text">
+  <div class="white-box">
+    <div class="profile-image-container">
+      <img src="tweets/images/PROFILE1.jpg" class="profile-image">
+      </div>
+      <div class="account-container"><p class="account"><span class="account-name">Koreaboo</span><br><span class="handle">@Koreaboo</span></p></div><div class="text-container">
+      <p class="paragraph">On top of being beautiful and talented, Mina also has a heart of an angel~ 👼❤ To finish off 2017, she participated in Save The Children's latest campaign! #신생아살리기캠페인 <span class=“link”>#savethechildren</span> <span class=“link”>@JYPETWICE</span> <span class=“link”>@SavetheChildren</span>  https://t.co/ziiB6aM0oj
+    </p>
+  </div>
+</div>
+</div>
