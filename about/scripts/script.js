@@ -12,7 +12,7 @@ $(document).ready(function() {
       $("#fixedbar").width(width / 8 - 2);
       $(".box").css("min-height", boxHeight);
       $(".box2").width(width / 4 - 2);
-      $("#footer").width(width - 2).height(height / 2);
+      $("#footer").width(width - 2).height(height / 2 - 2);
       $("#footer").css("margin-left", - width / 8)
     }).resize();
 });

@@ -18,7 +18,7 @@ p.title {
   transform: translate(-50%, -50%);
   font-size: 1.3vw;
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p.tag-selection {
@@ -31,21 +31,15 @@ p.tag-selection {
   font-weight: 500;
 }
 
-p.flip-text {
+.button-text {
   position: absolute;
   top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  font-size: 1.1vw;
-  text-transform: uppercase;
+  left: 50%;
   margin: 0;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
   font-weight: 500;
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-size: 1.1vw;
 }
 
 .title-line {

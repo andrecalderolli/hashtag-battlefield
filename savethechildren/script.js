@@ -6,8 +6,8 @@ $(document).ready(function() {
     $(window).resize(function() {
       var width = window.innerWidth;
       var height = window.innerHeight;
-      var boxHeight = $(".box").height(height / 4 - 2);
-      var boxWidth = $(".box").width(width / 8 - 2);
+      $(".box").height(height / 4 - 2);
+      $(".box").width(width / 8 - 2);
       $(".box2").width(width / 4 - 2);
     }).resize();
 });
@@ -19,8 +19,9 @@ function startStory() {
   $("#box18").animate({width: $("#box18").width() / 2 + 1}, 1600)
   $(".box").removeClass("off", 700, "swing");
   $("#image-open").animate({opacity: 0}, 700);
-  $("p").animate({opacity: 0}, 700);
+  $(".btn").animate({opacity: 0}, 700);
   $("h1").animate({opacity: 0}, 700);
+  $(".home").animate({opacity: 0}, 700);
 }
 
 $("#story-content").load("savethechildren.xml");
@@ -28,16 +29,17 @@ $.getScript("script-story.js");
 $("#story-content").css("opacity", 0);
 
 $(".startbtn").click(function(){
-  //startStory();
+  $("#box1").animate({backgroundColor: "#efefef"}, 1000);
+  startStory();
   setTimeout(
     function() {
       $("#opening-content").animate({opacity: 0}, 2000);
       $("#story-content").animate({opacity: 1}, 2000);
-    }, 100);
+    }, 2000);
     setTimeout(
       function() {
         $("#opening-content").empty();
     }
-    , 3000)
+    , 3500)
   })
 })

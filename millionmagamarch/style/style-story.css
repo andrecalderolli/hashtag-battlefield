@@ -366,6 +366,8 @@
   padding-right: 30px;
   box-sizing: border-box;
   border: 1px solid white;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .extra-boxes {
@@ -442,6 +444,7 @@ p.paragraph {
   left: 0;
   transform: none;
   width: 100%;
+  margin-bottom: 4vh;
 }
 
 .account-name {
