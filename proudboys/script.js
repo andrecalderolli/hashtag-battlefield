@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 function startStory() {
-  $("#box1").animate({width: 2 * $("#box1").width() + 4, height: 2 * $("#box1").height() + 4}, 2000);
+  $("#box9").animate({width: 2 * $("#box1").width() + 4, height: 2 * $("#box1").height() + 4}, 2000);
 //  $(".homebtn").animate({backgroundColor: "#efefef"}, 1000);
   $("#box18").addClass("invisible", 700);
   $("#box18").animate({width: $("#box18").width() / 2 + 1}, 1600)
