@@ -6,8 +6,8 @@ $(document).ready(function() {
       var height = window.innerHeight;
       var narratorH = $("#narrator-box").height(height / 2 - 2);
       var narratorW = $("#narrator-box").width(width / 4 - 2);
-      var boxHeight = $(".box").height(height / 4 - 2);
-      var boxWidth = $(".box").width(width / 8 - 2);
+      var boxHeight = $(".box-story").height(height / 4 - 2);
+      var boxWidth = $(".box-story").width(width / 8 - 2);
       var photoWidth = $(".photo").width(3 * width / 8 - 2);
       $(".fixedbox").height(height / 4 - 2).width(width / 8 - 2)
     }).resize();

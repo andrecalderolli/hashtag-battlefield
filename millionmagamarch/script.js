@@ -23,18 +23,21 @@ function startStory() {
   $("h1").animate({opacity: 0}, 700);
 }
 
+$("#story-content").load("millionmagamarch.xml");
+$.getScript("script-story.js");
+$("#story-content").css("opacity", 0);
+
 $(".startbtn").click(function(){
-  startStory();
+  //startStory();
   setTimeout(
     function() {
-      $("#story-content").load("millionmagamarch.xml");
-      $.getScript("scripts/script-story.js");
       $("#opening-content").animate({opacity: 0}, 2000);
-    }, 3500);
+      $("#story-content").animate({opacity: 1}, 2000);
+    }, 100);
     setTimeout(
       function() {
         $("#opening-content").empty();
     }
-    , 5500)
+    , 3000)
   })
 })

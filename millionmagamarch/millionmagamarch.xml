@@ -27,7 +27,7 @@
           <p class="narrator-text"></p>
         <!--<p class="narrator-text">This story begun way before many of us even knew what “#ProudBoys” stood for, but I decided to tell you from May, when the white nationalist group first started to make noise in 2020, spreading conspiracy theories about covid-19 and encouraging and organizing violent crimes.</p>-->
       </div>
-      <div class="fixedbox" id="date-container">
+      <div class="fixedboxy" id="date-container">
         <p class="date-fixed"><span class="month">May</span><br><span class="day">2020</span></p>
       </div>
       <div class="fixedbox" id="media-box"></div>
@@ -39,28 +39,28 @@
       <div id="image-first" class="photo"></div>
     </div>
     <div id="wraper-story">
-      <div class="box" id="box1"></div>
-      <div id="tweet9" class="box tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet12" class="box tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet7" class="box tweet"><p class="date invisible"><span class="day">01</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet15" class="box tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet4" class="box tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet10" class="box tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="box8" class="box"></div>
-      <div id="box9" class="box"></div>
-      <div id="tweet1" class="box tweet clickNext"><p class="clickHere">Click<br>Here</p><p class="date invisible"><span class="day">31</span><br><span class="month2">May</span></p></div>
-      <div id="tweet3" class="box tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet5" class="box tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet8" class="box tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet6" class="box tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="box15" class="box"></div>
-      <div id="tweet2" class="box tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet16" class="box tweet"><p class="date invisible"><span class="day">15</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet13" class="box tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
-      <div id="box19" class="box"></div>
-      <div id="box20" class="box"></div>
-      <div id="tweet11" class="box tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet14" class="box tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet18" class="box tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
-      <div id="tweet17" class="box tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
+      <div class="box-story" id="box-story1"></div>
+      <div id="tweet9" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="tweet12" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="tweet7" class="box-story tweet"><p class="date invisible"><span class="day">01</span><br><span class="month2">Oct</span></p></div>
+      <div id="tweet15" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="tweet4" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
+      <div id="tweet10" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="box-story8" class="box-story"></div>
+      <div id="box-story9" class="box-story"></div>
+      <div id="tweet1" class="box-story tweet clickNext"><p class="clickHere">Click<br>Here</p><p class="date invisible"><span class="day">31</span><br><span class="month2">May</span></p></div>
+      <div id="tweet3" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
+      <div id="tweet5" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
+      <div id="tweet8" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="tweet6" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
+      <div id="box-story15" class="box-story"></div>
+      <div id="tweet2" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
+      <div id="tweet16" class="box-story tweet"><p class="date invisible"><span class="day">15</span><br><span class="month2">Nov</span></p></div>
+      <div id="tweet13" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="box-story19" class="box-story"></div>
+      <div id="box-story20" class="box-story"></div>
+      <div id="tweet11" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="tweet14" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="tweet18" class="box-story tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
+      <div id="tweet17" class="box-story tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
     </div>
