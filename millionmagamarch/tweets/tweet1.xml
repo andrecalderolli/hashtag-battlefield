@@ -5,7 +5,7 @@
       <img src="tweets/images/PROFILE1.jpg" class="profile-image">
       </div>
       <div class="account-container"><p class="account"><span class="account-name">DrConservaMom🇺🇸🐸🌐</span><br><span class="handle">@conservamomusa</span></p></div><div class="text-container">
-      <p class="paragraph">My hotel is booked in DC for the #MillionMAGAMarch on Saturday: who’s coming with me?🇺🇸 #HoldTheLine #StopTheSteal #FightForTrump https://t.co/TDs1WnsVWP
+      <p class="paragraph">My hotel is booked in DC for the <span class="link">#MillionMAGAMarch</span> on Saturday: who’s coming with me?🇺🇸 <span class="link">#HoldTheLine #StopTheSteal #FightForTrump https://t.co/TDs1WnsVWP</span>
     </p>
   </div>
 </div>

@@ -4,12 +4,7 @@
           <!--<div class="tweet-media"><img src="img-tweet-test.png" class="tweet-image"></div>
           <div class="tweet-text"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div>-->
         </div>
-        <div class="extra-boxes">
-          <div class="extra"></div>
-          <div class="extra"></div>
-          <div class="extra"></div>
-        </div>
-        <div class="close-btn"></div>
+        <div class="close-btn"><div class="icon"><img src="assets/icons/Continue.svg" alt="continue icon"></div><p class="continue-text">continue</p></div>
       </div>
     </div>
     <div class="popup-overlay2">

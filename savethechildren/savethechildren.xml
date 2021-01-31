@@ -4,12 +4,7 @@
           <!--<div class="tweet-media"><img src="img-tweet-test.png" class="tweet-image"></div>
           <div class="tweet-text"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div>-->
         </div>
-        <div class="extra-boxes">
-          <div class="extra"></div>
-          <div class="extra"></div>
-          <div class="extra"></div>
-        </div>
-        <div class="close-btn"></div>
+        <div class="close-btn"><div class="icon"><img src="assets/icons/Continue.svg" alt="continue icon"></div><p class="continue-text">continue</p></div>
       </div>
     </div>
     <div class="popup-overlay2">
@@ -23,14 +18,14 @@
     </div>
 
     <div id="content-wraper">
-      <div id="narrator-box">
-          <p class="narrator-text"></p>
-        <!--<p class="narrator-text">This story begun way before many of us even knew what “#ProudBoys” stood for, but I decided to tell you from May, when the white nationalist group first started to make noise in 2020, spreading conspiracy theories about covid-19 and encouraging and organizing violent crimes.</p>-->
-      </div>
       <div class="fixedbox" id="date-container">
         <p class="date-fixed"><span class="month">May</span><br><span class="day">2020</span></p>
       </div>
       <div class="fixedbox" id="media-box"></div>
+      <div id="narrator-box">
+          <p class="narrator-text"></p>
+        <!--<p class="narrator-text">This story begun way before many of us even knew what “#ProudBoys” stood for, but I decided to tell you from May, when the white nationalist group first started to make noise in 2020, spreading conspiracy theories about covid-19 and encouraging and organizing violent crimes.</p>-->
+      </div>
       <div class="fixedbox" id="number-tweets-container"><p class="number-tweet-info"><span class="number-tweets">? tweets</span><br><span class="w-proudboys">with #SaveTheChildren </span><br><span class="that-month">that month</span></p></div>
       <div class="fixedbox" id="media-box-2"></div>
     </div>
