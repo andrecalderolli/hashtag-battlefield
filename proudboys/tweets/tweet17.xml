@@ -1,10 +1,3 @@
-<div class="tweet-media"><video class="tweet-image" controls>
-  <source src="tweets/images/TWEET17.mp4" type="video/mp4">
-    The video shows...
-</video></div>
-<div class="tweet-text"><p class="paragraph">Well over a thousand Proud Boys now marching through the streets, police only able to disperse them away from individual intersections before they mobilize around #DC #ProudBoys #DefendDC  https://t.co/2A8vefrw7Z</p></div>
-
-
 <div class="tweet-media"><img src="tweets/images/TWEET17.jpg" class="tweet-image"></div>
 <div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE17.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">Cornell William Brooks</span><br><span class="handle">@CornellWBrooks</span></p></div><div class="text-container">
 <p class="paragraph">Well over a thousand Proud Boys now marching through the streets, police only able to disperse them away from individual intersections before they mobilize around #DC #ProudBoys #DefendDC  https://t.co/2A8vefrw7Z</p></div></div>
