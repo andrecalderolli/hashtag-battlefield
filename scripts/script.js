@@ -64,32 +64,34 @@ $(document).ready(function() {
                     $("#box24").removeClass("empty");
                     $("#box30").removeClass("empty").addClass("letter-i");
                     $(".launch-video").removeClass("invisible");
-                  }, 2000)
-              }, 2000);
-          }, 2000);
+                  }, 1000)
+              }, 1000);
+          }, 1000);
       }, 4000);
 
       $("#launch-video").click(function () {
-        $("#box11").animate({opacity: 0}, 1000);
-        $("#box12").animate({opacity: 0}, 1200);
-        $("#box13").animate({opacity: 0}, 700);
-        $("#box14").animate({opacity: 0}, 600);
-        $("#box19").animate({opacity: 0}, 800);
-        $("#box20").animate({opacity: 0}, 700);
-        $("#box21").animate({opacity: 0}, 400);
-        $("#box22").animate({opacity: 0}, 1400);
+        $("#box11").animate({opacity: 0}, 400);
+        $("#box12").animate({opacity: 0}, 600);
+        $("#box13").animate({opacity: 0}, 800);
+        $("#box14").animate({opacity: 0}, 1000);
+        $("#box19").animate({opacity: 0}, 1200);
+        $("#box20").animate({opacity: 0}, 1400);
+        $("#box21").animate({opacity: 0}, 1600);
+        $("#box22").animate({opacity: 0}, 1800);
         $('video').get(0).play()
+        $('.skip').removeClass('invisible', 700);
       });
 
       $("video").on("ended", function () {
-        $("#box11").animate({opacity: 1}, 1000);
-        $("#box12").animate({opacity: 1}, 1200);
-        $("#box13").animate({opacity: 1}, 700);
-        $("#box14").animate({opacity: 1}, 600);
-        $("#box19").animate({opacity: 1}, 800);
-        $("#box20").animate({opacity: 1}, 700);
-        $("#box21").animate({opacity: 1}, 400);
-        $("#box22").animate({opacity: 1}, 1400);
+        $("#box11").animate({opacity: 1}, 1600);
+        $("#box12").animate({opacity: 1}, 1400);
+        $("#box13").animate({opacity: 1}, 1200);
+        $("#box14").animate({opacity: 1}, 1800);
+        $("#box19").animate({opacity: 1}, 100);
+        $("#box20").animate({opacity: 1}, 800);
+        $("#box21").animate({opacity: 1}, 600);
+        $("#box22").animate({opacity: 1}, 400);
+        $('.skip').addClass('invisible', 700);
         $("#launch-video").children().empty();
         $("#launch-video").attr("href", 'menu/index.html').append("<p class='launch-video'>CONTINUE</p>")
       })

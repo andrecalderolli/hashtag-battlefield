@@ -61,13 +61,13 @@ video {
   visibility: hidden;
 }
 
-.launch-video {
+.launch-video, .skip {
   text-decoration: underline;
   color: #4364ed;
   font-weight: 300;
 }
 
-.launch-video:hover {
+.launch-video:hover, .skip:hover {
   cursor: pointer;
 }
 
