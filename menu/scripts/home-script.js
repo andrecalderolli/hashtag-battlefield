@@ -24,7 +24,7 @@ $("#pb-btn").hover(
 
 $("#mmm-btn").hover(
   function() {
-      $("#mmm-btn").animate({backgroundColor: "#4568e9"}, 300).children().animate({color: "white"}, 300)
+      $("#mmm-btn").animate({backgroundColor: "#ff6477"}, 300).children().animate({color: "white"}, 300)
   }, function() {
     $("#mmm-btn").animate({backgroundColor: "#efefef"}, 300).children().animate({color: "black"}, 300)
   }
@@ -34,7 +34,7 @@ $("#mmm-btn").hover(
 
 $("#stc-btn").hover(
   function() {
-      $("#stc-btn").animate({backgroundColor: "#4568e9"}, 300).children().animate({color: "white"}, 300)
+      $("#stc-btn").animate({backgroundColor: "#ffd600"}, 300).children().animate({color: "white"}, 300)
   }, function() {
     $("#stc-btn").animate({backgroundColor: "#efefef"}, 300).children().animate({color: "black"}, 300)
   }
