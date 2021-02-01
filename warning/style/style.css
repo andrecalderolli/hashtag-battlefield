@@ -52,6 +52,19 @@ p {
   position: relative;
 }
 
+.invisible2 {
+  visibility: hidden;
+}
+
+.line1 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 0;
+  border: 1px solid #4364ed;
+  opacity: 0;
+}
+
 video {
   width: 100%;
   height: auto;

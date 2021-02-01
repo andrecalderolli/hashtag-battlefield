@@ -23,9 +23,21 @@ $(document).ready(function() {
         $("#box21").animate({opacity: 0}, 700);
         $("#box22").animate({opacity: 0}, 700);
         $("#box23").animate({opacity: 0}, 700);
-        $("#title").animate({opacity: 0}, 700);
+        $("#box31").removeClass("invisible2");
+        $("#box32").removeClass("invisible2");
+        $("#box33").removeClass("invisible2");
+        $("#title")
+          .animate({fontSize: "0.8vw"}, 700)
+          .animate({top: "8%"}, 700).animate({left: "50%"}, 700)
+          .css("transform", "translate(-50%, -50%)")
+          .animate({fontWeight: "300"}, 700);
         $("#box20").removeClass("launch-video").empty();
-        $("#box20").parent().remove()
+        $("#box20").parent().remove();
+        setTimeout(
+          function() {
+            $(".line1").css("opacity", 1).animate({height: "50%"}, 500)
+          }, 1600
+        )
         $('video').get(0).play()
       });
 
