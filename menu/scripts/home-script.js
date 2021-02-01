@@ -27,6 +27,40 @@ if (visit3) {
   $("#stc-btn").empty().addClass("stc-visited");
 };
 
+// warning! button
+
+if (visit1 || visit2 || visit3) {
+  $("#box7").wrap("<a href='../warning/index.html'></a>");
+  $("#box7").children().css("opacity", 1);
+  $("#box7").addClass("button");
+  $("#box7").hover(function(){
+      $("#box7").animate({backgroundColor: "#d1d1d1"}, 400)
+  }, function(){
+      $("#box7").animate({backgroundColor: "#efefef"}, 400)
+  })
+} else {
+  $("#box7").children().css("opacity", 0.5);
+  $("#box7").removeClass("button");
+  $("#box7").hover(
+    function() {
+      $("#warning").animate({top: "-5%"}, 300).animate({opacity: 0}, 500).empty();
+      setTimeout(function(){
+        $("#warning").append("explore some stories first").animate({opacity: 0.5}, 200).animate({top: "50%"}, 400);
+      },801)},
+    function() {
+      $("#warning").animate({top: "-5%"}, 300).animate({opacity: 0}, 400).empty();
+      setTimeout(function(){
+        $("#warning").append("warning!").css("opacity", 0).animate({opacity: 0.5}, 500).animate({top: "50%"}, 400);
+      },701)}
+    )
+};
+
+$("#box1").hover(function(){
+    $("#box1").animate({backgroundColor: "#d1d1d1"}, 400)
+}, function(){
+    $("#box1").animate({backgroundColor: "#efefef"}, 400)
+})
+
 
 //ProudBoys selection button
 
