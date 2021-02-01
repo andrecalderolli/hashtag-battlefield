@@ -148,6 +148,15 @@
   overflow-x: hidden;
 }
 
+.narrator-box-final p {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  margin-left: 2vw;
+  margin-top: 3vh;
+}
+
 #date-container {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
@@ -212,10 +221,6 @@
 .narrator-text {
   font-size: 1vw;
   width: 75%;
-}
-
-.narrator-text-final {
-  margin-top: 50%;
 }
 
 .clickHere {

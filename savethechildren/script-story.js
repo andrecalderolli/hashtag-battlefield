@@ -103,63 +103,72 @@ function changeMonth() {
   //sets what happens in september
   if(clicks == 4) {
     $(".month").empty();
-    $(".month").append("Sep");
-    $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 300);
-    $(".date-fixed").css("opacity", 1).animate({opacity: 0}, 300);
-    $(".number-tweets").empty().append("? tweets");
-    $(".that-month").empty();
-    $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#media-box").css("opacity", 0).addClass("media1", 300, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media1' onclick='popupMedia()'></button>");
+    $(".month").append("2019");
+    //$(".narrator-text").css("opacity", 1).animate({opacity: 0}, 300);
+    //$(".date-fixed").css("opacity", 1).animate({opacity: 0}, 300);
+    $(".number-tweets").empty().append("12K tweets");
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    );
+  //  $("#media-box").css("opacity", 0).addClass("media1", 300, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media1' onclick='popupMedia()'></button>");
     setTimeout(
       function() {
         $(".narrator-text").empty();
         $(".narrator-text").load("narration/narration2.xml").animate({opacity: 1}, 300);
-        $(".date-fixed").animate({opacity: 1}, 300)
+    //    $(".date-fixed").animate({opacity: 1}, 300)
       }
     , 400)
     //october
   } if (clicks == 5) {
     $(".month").empty();
-    $(".month").append("Oct");
-    $(".number-tweets").empty().append("? tweets");
-    $("#narrator-box").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
-    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media1", 800);
-    $("#media-box").addClass("media2", 800, "swing").animate({opacity: 0.6}, 800).append("<button class='clickable' id='media2' onclick='popupMedia()'></button>");
+    $(".month").append("2020");
+    $(".day2").empty().append("june & july")
+    $(".that-month").empty().append("those two months");
+    $(".number-tweets").empty().append("44K tweets");
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    );
+    //$(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
+  //  $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media1", 800);
+    $("#media-box").addClass("media2", 800, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media2' onclick='popupMedia()'></button>");
     setTimeout(
       function() {
         $(".narrator-text").empty();
-        $(".narrator-text").load("narration/narration3.xml").animate({opacity: 1}, 800)
+        $(".narrator-text").load("narration/narration3.xml").animate({opacity: 1}, 300)
       }
-    , 900)
+    , 400)
   } if (clicks == 8) {
     $(".month").empty();
-    $(".month").append("Nov");
-    $(".number-tweets").empty().append("? tweets");
-    $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
-    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media2", 800);
+    $(".month").append("2020");
+    $(".day2").empty().append("august")
+    $(".that-month").empty().append("that month");
+    $(".number-tweets").empty().append("106K tweets");
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    );
+  //  $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
+    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media2", 300);
     setTimeout(
       function() {
         $(".narrator-text").empty();
-        $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 800)
+        $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 300)
       }
-    , 900)
+    , 400)
   } if (clicks == 10) {
     $("#date-container").children().remove();
-    $("#date-container").wrap("<a href='../menu/index.html'></a>")
+    $("#date-container").wrap("<a href='../menu/index.html'></a>");
     $("#date-container").css("background-color", "#ffd600").addClass("return").append("<p class='next'>< MENU</p>");
-  //  $("#media-box").css("opacity", 1).css("background-color", "#FF6679").append("<p class='next'>#millionMAGAmarch</p>");
-  //  $("#media-box2").css("background-color", "#FFD91A").append("<p class='next'>#SaveTheChildren</p>");
     $(".next").css("opacity", 0).animate({opacity: 1}, 800);
     $("#number-tweets-container").empty();
-  //  $("#number-tweets-container").append("<p class='next'>download all the tweets</p>");
     $(".tweet").animate({backgroundColor: 'rgba(239,239,239,0.7)'}, 800);
     $(".invisible").animate({opacity: 1}, 800);
     setTimeout(

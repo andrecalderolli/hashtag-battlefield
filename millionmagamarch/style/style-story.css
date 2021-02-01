@@ -25,9 +25,9 @@
 }
 
 #content-wraper2 {
-  -moz-box-shadow:    inset 0 0 20px #ffd600;
-   -webkit-box-shadow: inset 0 0 20px #ffd600;
-   box-shadow:         inset 0 0 20px #ffd600;
+  -moz-box-shadow:    inset 0 0 20px #ff6477;
+   -webkit-box-shadow: inset 0 0 20px #ff6477;
+   box-shadow:         inset 0 0 20px #ff6477;
    height: 100%;
    width: 25%;
    position: absolute;
@@ -162,6 +162,15 @@
   overflow-x: hidden;
 }
 
+.narrator-box-final p {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  margin-left: 2vw;
+  margin-top: 3vh;
+}
+
 #date-container {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
@@ -226,10 +235,6 @@
 .narrator-text {
   font-size: 1vw;
   width: 75%;
-}
-
-.narrator-text-final {
-  margin-top: 50%;
 }
 
 .clickHere {
@@ -358,20 +363,6 @@
   background-position: center center;
   background-size: cover;
   position: fixed;
-}
-
-#content-wraper2 {
-  -moz-box-shadow:    inset 0 0 20px #4364ed;
-   -webkit-box-shadow: inset 0 0 20px #4364ed;
-   box-shadow:         inset 0 0 20px #4364ed;
-   height: 100%;
-   width: 25%;
-   position: absolute;
-   font-size: 0;
-   text-align: center;
-   left: 0;
-   top: 0;
-   visibility: hidden;
 }
 
 .close-btn:hover {
