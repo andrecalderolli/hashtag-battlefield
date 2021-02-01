@@ -95,6 +95,18 @@
   width: 50%;
 }
 
+#img3 {
+  background-image: url("../assets/imagem3.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 525%;
+  height: 125%;
+  width: 37.5%;
+}
+
 .off {
   opacity: 0;
 }

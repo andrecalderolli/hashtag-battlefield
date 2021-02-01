@@ -42,7 +42,12 @@ function startStory() {
   $("#image-open").animate({opacity: 0}, 700);
   $("p").animate({opacity: 0}, 700);
   $("h1").animate({opacity: 0}, 700);
-}
+};
+
+$('.download-btn').click(function(e) {
+    e.preventDefault();  //stop the browser from following
+    window.location.href = '../assets/Database-A-Hashtag-Battlefield.xlsx';
+});
 
 $(".startbtn").click(function(){
   startStory();
