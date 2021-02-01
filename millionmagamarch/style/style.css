@@ -86,6 +86,13 @@ p.title {
   overflow-y: scroll;
 }
 
+.box3 {
+  text-align: left;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 3.8vh;
+  overflow-y: scroll;
+}
+
 #box4 {
   overflow: hidden;
 }
@@ -96,10 +103,6 @@ p.title {
 
 .btn {
   text-align: center !important;
-}
-
-.about {
-  color: #4568e9;
 }
 
 #image-wraper {
@@ -126,14 +129,12 @@ p.title {
 }
 
 #image-open {
-  background-image: url("../assets/proudboys-intro.jpg");
+  background-image: url("../assets/maga-intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
 }
-
-
 
 .btn:hover {
   cursor: pointer;
