@@ -43,27 +43,27 @@
     </div>
     <div id="wraper-story">
       <div class="box-story" id="box-story1"></div>
-      <div id="tweet9" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet12" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet7" class="box-story tweet"><p class="date invisible"><span class="day">01</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet15" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="box-story2" class="box-story"></p></div>
+      <div id="tweet8" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="box-story4" class="box-story"></div>
+      <div id="box-story5" class="box-story"></div>
       <div id="tweet4" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet10" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="box-story8" class="box-story"></div>
+      <div id="box-story7" class="box-story"></div>
+      <div id="tweet6" class="box-story tweet"></div>
       <div id="box-story9" class="box-story"></div>
       <div id="tweet1" class="box-story tweet clickNext"><p class="clickHere">Click<br>Here</p><p class="date invisible"><span class="day">31</span><br><span class="month2">May</span></p></div>
       <div id="tweet3" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet5" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet8" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet6" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="box-story15" class="box-story"></div>
+      <div id="box-story12" class="box-story"></div>
+      <div id="tweet5" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="box-story14" class="box-story"></div>
+      <div id="tweet7" class="box-story tweet"></div>
       <div id="tweet2" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
-      <div id="tweet16" class="box-story tweet"><p class="date invisible"><span class="day">15</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet13" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
+      <div id="box-story17" class="box-story"></div>
+      <div id="box-story18" class="box-story"></div>
       <div id="box-story19" class="box-story"></div>
       <div id="box-story20" class="box-story"></div>
-      <div id="tweet11" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="tweet14" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
-      <div id="tweet18" class="box-story tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
-      <div id="tweet17" class="box-story tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
+      <div id="tweet9" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="box-story22" class="box-story"></div>
+      <div id="box-story23" class="box-story"></div>
+      <div id="box-story24" class="box-story"></div>
     </div>

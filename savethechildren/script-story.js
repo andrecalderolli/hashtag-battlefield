@@ -62,7 +62,8 @@ function nextTweet(){
   $("#tweet"+clicks).removeClass("clickNext", 800, "swing").removeClass("clickNext2", 800, "swing").animate({backgroundColor: 'rgba(239,239,239,0)'}, 800);
   $("#tweet"+clicks).children().removeAttr("onclick").attr("onclick", 'popupTweet()');
   incrementCount();
-  if(clicks == 9 || clicks == 12 || clicks == 10 || clicks == 8 || clicks == 6 || clicks == 11) {
+  console.log(clicks);
+  if(clicks == 5 || clicks == 6 || clicks == 7 || clicks == 8 || clicks == 9) {
     $("#tweet"+clicks).addClass("clickNext2", 800, "swing");
   } else {
     $("#tweet"+clicks).addClass("clickNext", 800, "swing");
@@ -98,7 +99,7 @@ $(".close-btn2").click(function() {
 
 // change month
 
-$(".close-btn").click(function() {
+function changeMonth() {
   //sets what happens in september
   if(clicks == 4) {
     $(".month").empty();
@@ -150,7 +151,7 @@ $(".close-btn").click(function() {
         $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 800)
       }
     , 900)
-  } if (clicks == 11) {
+  } if (clicks == 10) {
     $("#date-container").children().remove();
     $("#date-container").wrap("<a href='../menu/index.html'></a>")
     $("#date-container").css("background-color", "#4568e9").addClass("return").append("<p class='next'>< MENU</p>");
@@ -169,7 +170,10 @@ $(".close-btn").click(function() {
       }
     , 900)
   }
-});
+};
+
+$(".close-btn").click(function() {changeMonth()});
+$(".close-btn3").click(function() {changeMonth()});
 
 // button effects
 $("#media-box").hover(

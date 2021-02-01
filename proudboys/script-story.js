@@ -98,7 +98,7 @@ $(".close-btn2").click(function() {
 
 // change month
 
-$(".close-btn").click(function() {
+function changeMonth() {
   //sets what happens in september
   if(clicks == 2) {
     $(".month").empty();
@@ -190,7 +190,10 @@ $(".close-btn").click(function() {
       }
     , 900)
   }
-});
+};
+
+$(".close-btn").click(function() {changeMonth()});
+$(".close-btn3").click(function() {changeMonth()});
 
 // button effects
 $("#media-box").hover(
