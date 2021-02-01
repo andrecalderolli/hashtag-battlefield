@@ -52,6 +52,17 @@ p {
   position: relative;
 }
 
+.box2 {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  background-color: #1a1a1a;
+  border: 1px solid #4364ed;
+  color: black;
+  position: relative;
+}
+
 .invisible2 {
   visibility: hidden;
 }

@@ -5,11 +5,11 @@ $(document).ready(function() {
     $(window).resize(function() {
       var width = window.innerWidth;
       var height = window.innerHeight;
-      var boxHeight = $(".box").height(height / 4 - 2);
-      var boxWidth = $(".box").width(width / 8 - 2);
-      $(".box2").width(width / 4 - 2);
+      $(".box").height(height / 4 - 2);
+      $(".box").width(width / 8 - 2);
+      $(".box2").width(width / 8 - 2);
+      $(".box2").height(height / 4 - 2);
       $(".box").css("max-width", $("#wraper").width() / 8);
-      $(".box2").css("max-width", $("#wraper").width() / 4);
       $("#box19").width(3 * width / 8 - 2).css("max-width", 3 * $("#wraper").width() / 8);
     }).resize();
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
         $("#box13").animate({opacity: 0}, 1000);
         $("#box18").animate({opacity: 0}, 1200);
         $("#box19").animate({opacity: 0}, 1400).remove();
-        $("#box4").animate({width: 2 * $("#box4").width() + 4}, 700);
+        $("#box4").animate({width: 2 * $("#box4").width() + 4}, 700).css("max-width", $("#wraper") / 4);
         $("#box20").animate({opacity: 0}, 700);
         $("#box21").animate({opacity: 0}, 700);
         $("#box22").animate({opacity: 0}, 700);
