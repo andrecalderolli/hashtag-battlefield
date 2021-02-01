@@ -9,7 +9,7 @@ $(document).ready(function() {
       $(".box").height(height / 4 - 2);
       $(".box").width(width / 8 - 2);
       $(".box2").width(width / 4 - 2);
-      $("#title").css("margin-top", height / 5).css("margin-left", width / 6)
+      $("#title").css("margin-top", height / 5).css("margin-left", width / 7)
     }).resize();
 });
 
