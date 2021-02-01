@@ -148,3 +148,7 @@ video {
 .empty {
   background-image: none;
 }
+
+#box19::-webkit-scrollbar { width: 0 !important }
+#box19 { overflow: -moz-scrollbars-none; }
+#box19 { -ms-overflow-style: none; }

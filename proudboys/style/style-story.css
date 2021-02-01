@@ -608,3 +608,7 @@ p.paragraph {
   bottom: 0;
   right: 0;
 }
+
+.white-box::-webkit-scrollbar { width: 0 !important }
+.white-box { overflow: -moz-scrollbars-none; }
+.white-box { -ms-overflow-style: none; }
