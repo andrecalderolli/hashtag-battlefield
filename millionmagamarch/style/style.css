@@ -49,12 +49,16 @@ p.title {
 
 .start {
   text-decoration: underline;
+  font-weight: 500;
   font-size: 1.1vw;
+  letter-spacing: 3pt;
 }
 
 .home {
   color: white;
+  font-weight: 500;
   font-size: 1.1vw;
+  letter-spacing: 3pt;
 }
 
 #wraper {
@@ -79,17 +83,10 @@ p.title {
   position: relative;
 }
 
-.box2 {
-  text-align: left;
-  font-family: 'IBM Plex Serif', serif;
-  line-height: 3.8vh;
-  overflow-y: scroll;
-}
-
 .box3 {
   text-align: left;
-  font-family: 'IBM Plex Serif', serif;
-  line-height: 3.8vh;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 24px;
   overflow-y: scroll;
 }
 

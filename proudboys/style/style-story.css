@@ -139,8 +139,8 @@
   color: black;
   position: relative;
   text-align: left;
-  font-family: 'IBM Plex Serif', serif;
-  line-height: 3.8vh;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 24px;
 }
 
 .narrator-box-final {
@@ -631,3 +631,9 @@ p.paragraph {
 .white-box::-webkit-scrollbar { width: 0 !important }
 .white-box { overflow: -moz-scrollbars-none; }
 .white-box { -ms-overflow-style: none; }
+
+.next {
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
+}

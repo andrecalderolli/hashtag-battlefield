@@ -15,6 +15,24 @@ $(document).ready(function() {
     }).resize();
 });
 
+$("#homebtn").hover(
+  function() {
+    $("#homebtn").animate({opacity: 0.6},300)
+  },
+  function() {
+    $("#homebtn").animate({opacity: 1},300)
+  }
+);
+
+$(".download-btn").hover(
+  function() {
+    $(".download-btn").animate({opacity: 0.7},300)
+  },
+  function() {
+    $(".download-btn").animate({opacity: 1},300)
+  }
+)
+
 function startStory() {
   $("#box1").animate({width: 2 * $("#box1").width() + 4, height: 2 * $("#box1").height() + 4}, 2000);
   $(".homebtn").animate({backgroundColor: "#efefef"}, 1000);

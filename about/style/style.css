@@ -50,8 +50,9 @@ p {
 
 .box2 {
   text-align: left;
-  font-family: 'IBM Plex Serif', serif;
-  line-height: 23px;
+  font-size: 1.1vw;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 24px;
   overflow-y: auto;
 }
 
@@ -69,6 +70,15 @@ p {
 
 #homebtn {
   background-color: #ff6679;
+}
+
+#homebtn p {
+  background-color: #ff6679;
+  font-weight: 400;
+  font-size: 1.3vw;
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
 }
 
 #image-wraper {

@@ -31,7 +31,7 @@ p.tag-selection {
   transform: translate(-50%, -50%);
   font-size: 1.1vw;
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .button-text {
@@ -41,8 +41,10 @@ p.tag-selection {
   margin: 0;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: regular;
   font-size: 1.1vw;
+  letter-spacing: 3pt;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .title-line {

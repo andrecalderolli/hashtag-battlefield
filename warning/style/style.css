@@ -21,13 +21,14 @@ p {
   position: relative;
   top: 0;
   left: 0;
-  font-size: 1.5vw;
   transform: none;
   font-weight: 500;
   margin: 1em;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: white;
   font-weight: 300;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 24px;
 }
 
 #wraper {
@@ -109,14 +110,16 @@ video {
 
 .return {
   color: #4364ed;
-  font-weight: 300;
-  font-size: 1.3vw;
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
 }
 
 .launch-video {
   color: white;
-  font-weight: 300;
-  font-size: 1.3vw;
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
   text-decoration: underline;
 }
 

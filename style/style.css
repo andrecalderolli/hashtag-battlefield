@@ -64,7 +64,9 @@ video {
 .launch-video, .skip {
   text-decoration: underline;
   color: #4364ed;
-  font-weight: 300;
+  font-weight: 500;
+  font-size: 1.1vw;
+  letter-spacing: 3pt;
 }
 
 .launch-video:hover, .skip:hover {

@@ -69,7 +69,7 @@ $(document).ready(function() {
                   }, 1000)
               }, 1000);
           }, 1000);
-      }, 4000);
+      }, 3000);
 
       $(".launch-video").click(function () {
         $("#box11").animate({opacity: 0}, 400);

@@ -13,6 +13,24 @@ $(document).ready(function() {
       $("#box19").width(3 * width / 8 - 2).css("max-width", 3 * $("#wraper").width() / 8);
     }).resize();
 
+      $("#box1").hover(
+        function() {
+          $("#box1").animate({backgroundColor: "rgb(60,60,60)"},300)
+        },
+        function() {
+          $("#box1").animate({backgroundColor: "#1a1a1a"},300)
+        }
+      )
+
+      $(".launch-video").hover(
+        function() {
+          $(".launch-video").animate({opacity: 0.7},300)
+        },
+        function() {
+          $(".launch-video").animate({opacity: 1},300)
+        }
+      )
+
       $(".launch-video").click(function () {
         $("#box10").animate({opacity: 0}, 400);
         $("#box11").animate({opacity: 0}, 600);
