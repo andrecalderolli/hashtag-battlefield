@@ -25,9 +25,16 @@ var incrementCount = function(){
 
 function popupTweet() {
   var elmId = $(event.target).parent().attr("id");
-  $(".popup-overlay").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
   $(".tweet-content").empty();
-  $(".tweet-content").load("tweets/"+elmId+".xml")
+  $(".tweet-content").load("tweets/"+elmId+".xml");
+  setTimeout(
+    function() {
+    if($("#tweet-text").hasClass("no-media")) {
+      $(".popup-overlay3").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
+      $(".tweet-text").css("height", "100%");
+    } else {
+      $(".popup-overlay").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
+  }}, 100)
 };
 
 function popupMedia() {
@@ -42,7 +49,7 @@ function popupMedia() {
 $(document).ready(function() {
   $(".tweet").append("<button class='clickable' onclick='nextTweet()' disabled></button>");
   $("#tweet1").children().prop("disabled", false);
-  $(".narrator-text").load("narration/narration1.xml").css("opacity", 0).animate({opacity: 1}, 800)
+  $(".narrator-text").load("narration/narration1.xml").css("opacity", 0).animate({opacity: 1}, 800);
 });
 
 // toggle next square to open tweet
@@ -67,6 +74,14 @@ $(".close-btn").click(function() {
   $(".popup-overlay").animate({opacity: 0}, 700);
   setTimeout (function() {
     $(".popup-overlay").css("visibility", "hidden");
+    $(".tweet-content").empty();
+  }, 700)
+})
+
+$(".close-btn3").click(function() {
+  $(".popup-overlay3").animate({opacity: 0}, 700);
+  setTimeout (function() {
+    $(".popup-overlay3").css("visibility", "hidden");
     $(".tweet-content").empty();
   }, 700)
 })
