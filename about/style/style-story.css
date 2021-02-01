@@ -96,20 +96,6 @@
   background-color: #4568e9;
 }
 
-#narrator-box {
-  display: inline-block;
-  box-sizing: border-box;
-  margin: 0;
-  border: 0;
-  background-color: #efefef;
-  border: 1px solid white;
-  color: black;
-  position: relative;
-  text-align: left;
-  font-family: 'IBM Plex Serif', serif;
-  line-height: 3.8vh;
-}
-
 .narrator-box-final {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -402,10 +388,6 @@ p.account {
   vertical-align: middle;
 }
 
-.account {
-  line-height: 10px;
-}
-
 .text-container {
   position: relative;
   width: auto;
@@ -513,4 +495,26 @@ p.paragraph {
 
 .off {
   opacity: 0;
+}
+
+.subc {
+  text-align: right;
+}
+
+.subtitle {
+  font-size: 2.6vw;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  line-height: 1.1em;
+}
+
+.download-btn {
+  background-color: #ffd600;
+}
+
+.download-btn:hover {
+  cursor: pointer;
 }
