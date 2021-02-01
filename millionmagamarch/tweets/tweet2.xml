@@ -1,17 +1,4 @@
 <div class="tweet-media"><img src="tweets/images/TWEET2.jpg" class="tweet-image"></div>
-<div class="tweet-text">
-  <div class="white-box">
-    <div class="profile-image-container">
-      <img src="tweets/images/PROFILE2.jpg" class="profile-image">
-      </div>
-      <div class="account-container"><p class="account"><span class="account-name">𝕔hi𝓁𝓁iຖ໐iˢ</span><br><span class="handle">@chiiium</span></p></div><div class="text-container">
-      <p class="paragraph">#MillionMAGAMarch We need to show up. So get your shit together. https://t.co/TzWdrnGdFG
-    </p>
-  </div>
-</div>
-</div>
-
-<div class="tweet-media"><img src="tweets/images/TWEET2.jpg" class="tweet-image"></div>
 <div class="tweet-text"><div class="white-box"><div class="profile-image-container"><img src="tweets/images/PROFILE2.jpg" class="profile-image"></div><div class="account-container"><p class="account"><span class="account-name">𝕔hi𝓁𝓁iຖ໐iˢ</span><br><span class="handle">@chiiium</span></p></div><div class="text-container">
 <p class="paragraph">#MillionMAGAMarch We need to show up. So get your shit together. https://t.co/TzWdrnGdFG</p></div></div>
 <div class="tweet-info">
