@@ -9,7 +9,9 @@ $(document).ready(function() {
       var boxHeight = $(".box-story").height(height / 4 - 2);
       var boxWidth = $(".box-story").width(width / 8 - 2);
       var photoWidth = $(".photo").width(3 * width / 8 - 2);
-      $(".fixedbox").height(height / 4 - 2).width(width / 8 - 2)
+      $(".fixedbox").height(height / 4 - 2).width(width / 8 - 2);
+      $(".box-story").css("max-width", $("#wraper-story").width() / 6);
+      $(".fixedbox").css("max-width", $("#content-wraper").width() / 2)
     }).resize();
 });
 

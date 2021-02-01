@@ -11,6 +11,8 @@ $(document).ready(function() {
       $(".photo1").width(width / 2 - 2).css("max-width", 2 * $("#image-wraper-story").width() / 3);
       $(".photo2").width(width / 4 - 2).css("max-width", $("#image-wraper-story").width() / 3);
       $(".fixedbox").height(height / 4 - 2).width(width / 8 - 2);
+      $(".box-story").css("max-width", $("#wraper-story").width() / 6);
+      $(".fixedbox").css("max-width", $("#content-wraper").width() / 2)
     }).resize();
 });
 

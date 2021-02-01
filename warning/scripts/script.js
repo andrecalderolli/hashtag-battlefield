@@ -8,7 +8,9 @@ $(document).ready(function() {
       var boxHeight = $(".box").height(height / 4 - 2);
       var boxWidth = $(".box").width(width / 8 - 2);
       $(".box2").width(width / 4 - 2);
-      $("#box19").width(3 * width / 8 - 2);
+      $("#box19").width(3 * width / 8 - 2).css("max-width", 3 * $("#wraper").width() / 8);
+      $(".box").css("max-width", $("#wraper").width() / 8);
+      $(".box2").css("max-width", $("#wraper").width() / 4);
     }).resize();
 
       $(".launch-video").click(function () {
