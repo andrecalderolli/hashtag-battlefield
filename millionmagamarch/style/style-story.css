@@ -24,6 +24,20 @@
   cursor: pointer;
 }
 
+#content-wraper2 {
+  -moz-box-shadow:    inset 0 0 20px #ffd600;
+   -webkit-box-shadow: inset 0 0 20px #ffd600;
+   box-shadow:         inset 0 0 20px #ffd600;
+   height: 100%;
+   width: 25%;
+   position: absolute;
+   font-size: 0;
+   text-align: center;
+   left: 0;
+   top: 0;
+   visibility: hidden;
+}
+
 /*.return {
   width: 100%;
   height: 100%;
@@ -188,7 +202,7 @@
 }
 
 .media1 {
-  background-image: url("../assets/media1.jpg");
+  background-image: url("../assets/media1.jpeg");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;

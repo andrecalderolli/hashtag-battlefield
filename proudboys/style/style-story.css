@@ -287,6 +287,18 @@
   overflow: hidden;
 }
 
+.popup-box2 {
+  width: 90%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0);
+  text-align: center;
+}
+
 .popup-box3 {
   height: 35%;
   width: 55%;
