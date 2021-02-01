@@ -37,7 +37,7 @@ function popupTweet() {
       $(".tweet-text").css("height", "100%");
     } else {
       $(".popup-overlay").css("visibility", "visible").css("opacity", 0).animate({opacity: 1}, 700);
-  }}, 100)
+  }}, 500)
 };
 
 function popupMedia() {
