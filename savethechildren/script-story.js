@@ -17,6 +17,8 @@ $(document).ready(function() {
 
 //keeps track of the tweets clicked
 
+let sessionStorage = window.sessionStorage;
+
 var clicks = 1;
 
 var incrementCount = function(){
@@ -177,7 +179,9 @@ function changeMonth() {
         $(".narrator-text").empty().addClass("narrator-text-final");
         $(".narrator-text").load("narration/narrationfinal.xml").animate({opacity: 1}, 800)
       }
-    , 900)
+    , 900);
+    var visit3 = true;
+    sessionStorage.setItem('stc-visited', visit3);
   }
 };
 

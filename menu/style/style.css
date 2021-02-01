@@ -104,6 +104,22 @@ p.tag-selection {
   background-repeat: no-repeat;
 }
 
+.mmm-visited {
+  background-image: url("../../menu/assets/millionmagamarch.svg") !important;
+  background-size: cover !important;
+}
+
+
+.pb-visited {
+  background-image: url("../../menu/assets/proudboys.svg") !important;
+  background-size: cover !important;
+}
+
+.stc-visited {
+  background-image: url("../../menu/assets/savethechildren.svg") !important;
+  background-size: cover !important;
+}
+
 .hovering-btn {
   background-image: url("none") !important;
 }

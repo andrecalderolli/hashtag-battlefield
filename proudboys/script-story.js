@@ -193,7 +193,9 @@ function changeMonth() {
         $(".narrator-text").empty().addClass("narrator-text-final");
         $(".narrator-text").load("narration/narrationfinal.xml").animate({opacity: 1}, 800)
       }
-    , 400)
+    , 400);
+    var visit1 = true;
+    sessionStorage.setItem('pb-visited', visit1);
   }
 };
 

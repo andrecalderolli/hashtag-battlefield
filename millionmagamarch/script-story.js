@@ -209,7 +209,9 @@ function changeMonth() {
         $(".narrator-text").empty().addClass("narrator-text-final");
         $(".narrator-text").load("narration/narrationfinal.xml").animate({opacity: 1}, 800)
       }
-    , 900)
+    , 900);
+    var visit2 = true;
+    sessionStorage.setItem('mmm-visited', visit2);
   }
 };
 
