@@ -8,8 +8,9 @@ $(document).ready(function() {
       var narratorW = $("#narrator-box").width(width / 4 - 2);
       var boxHeight = $(".box-story").height(height / 4 - 2);
       var boxWidth = $(".box-story").width(width / 8 - 2);
-      var photoWidth = $(".photo").width(3 * width / 8 - 2);
-      $(".fixedbox").height(height / 4 - 2).width(width / 8 - 2)
+      $(".photo1").width(width / 2 - 2).css("max-width", 2 * $("#image-wraper-story").width() / 3);
+      $(".photo2").width(width / 4 - 2).css("max-width", $("#image-wraper-story").width() / 3);
+      $(".fixedbox").height(height / 4 - 2).width(width / 8 - 2);
     }).resize();
 });
 
@@ -60,7 +61,7 @@ function nextTweet(){
   $("#tweet"+clicks).removeClass("clickNext", 800, "swing").removeClass("clickNext2", 800, "swing").animate({backgroundColor: 'rgba(239,239,239,0)'}, 800);
   $("#tweet"+clicks).children().removeAttr("onclick").attr("onclick", 'popupTweet()');
   incrementCount();
-  if(clicks == 9 || clicks == 12 || clicks == 10 || clicks == 8 || clicks == 6 || clicks == 11) {
+  if(clicks == 9 || clicks == 8 || clicks == 7) {
     $("#tweet"+clicks).addClass("clickNext2", 800, "swing");
   } else {
     $("#tweet"+clicks).addClass("clickNext", 800, "swing");
