@@ -4,9 +4,9 @@ $(document).ready(function() {
     $(window).resize(function() {
       var width = window.innerWidth;
       var height = window.innerHeight;
-      var boxHeight = $(".box").height(height / 4 - 2);
-      var boxWidth = $(".box").width(width / 8 - 2);
-      $(".box2").width(width / 4 - 2);
+      $(".box").height(height / 4 - 2);
+      $(".box").width(width / 8 - 2).css("max-width", $("#wraper").width() / 8);
+      $(".box2").width(width / 4 - 2).css("max-width", $("#wraper").width() / 4);
     }).resize();
 });
 
