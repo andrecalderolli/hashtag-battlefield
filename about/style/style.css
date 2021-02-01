@@ -52,7 +52,7 @@ p {
   text-align: left;
   font-family: 'IBM Plex Serif', serif;
   line-height: 3.8vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .off {
@@ -142,4 +142,50 @@ h1 {
 
 .invisible {
   overflow: hidden;
+}
+
+.b1 {
+  background-image: url("../../menu/assets/pb.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.b2 {
+  background-image: url("../../menu/assets/stc.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.b3 {
+  background-image: url("../../menu/assets/mmm.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-protocol1 {
+  background-image: url("../assets/protocol1.png")
+}
+
+.bg-protocol2 {
+  background-image: url("../assets/protocol2.png")
+}
+
+
+.bg-protocol3 {
+  background-image: url("../assets/protocol3.png")
+}
+
+
+.bg-protocol4 {
+  background-image: url("../assets/protocol4.png")
+}
+
+
+.bg-protocol1, .bg-protocol2, .bg-protocol3, .bg-protocol4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

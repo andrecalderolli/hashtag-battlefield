@@ -8,11 +8,9 @@ $(document).ready(function() {
       var height = window.innerHeight;
       var boxHeight = $(".box").height(height / 4 - 2);
       var boxWidth = $(".box").width(width / 8 - 2);
-      $("#wraper-content").width(7 * width / 8);
-      $("#fixedbar").width(width / 8 - 2);
-      $(".box").css("min-height", boxHeight);
-      $(".box2").width(width / 4 - 2);
-      $("#footer").width(width - 2).height(height / 2 - 2);
+      $(".box").css("min-height", boxHeight).css("max-width", $("#wraper-content").width() / 7);
+      $(".box2").width(width / 4 - 2).css("max-width", 2 * $("#wraper-content").width() / 7);
+      $("#footer").width(width).height(height / 2);
       $("#footer").css("margin-left", - width / 8)
     }).resize();
 });
