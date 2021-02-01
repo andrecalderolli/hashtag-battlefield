@@ -7,7 +7,7 @@ $(document).ready(function() {
       var height = window.innerHeight;
       $(".box").height(height / 4 - 2);
       $(".box").width(width / 8 - 2);
-      $(".box2").width(width / 8 - 2);
+      $(".box2").width(width / 4 - 2);
       $(".box2").height(height / 4 - 2);
       $(".box").css("max-width", $("#wraper").width() / 8);
       $("#box19").width(3 * width / 8 - 2).css("max-width", 3 * $("#wraper").width() / 8);
@@ -38,7 +38,7 @@ $(document).ready(function() {
         $("#box13").animate({opacity: 0}, 1000);
         $("#box18").animate({opacity: 0}, 1200);
         $("#box19").animate({opacity: 0}, 1400).remove();
-        $("#box4").animate({width: 2 * $("#box4").width() + 4}, 700).css("max-width", $("#wraper") / 4);
+      //  $("#box4").animate({width: 2 * $("#box4").width() + 4}, 700).css("max-width", $("#wraper") / 4);
         $("#box20").animate({opacity: 0}, 700);
         $("#box21").animate({opacity: 0}, 700);
         $("#box22").animate({opacity: 0}, 700);
@@ -46,6 +46,8 @@ $(document).ready(function() {
         $("#box31").removeClass("invisible2");
         $("#box32").removeClass("invisible2");
         $("#box33").removeClass("invisible2");
+        $("#wraper").css("pointer-events", "none");
+        $("#box1").css("pointer-events", "auto");
         $("#title")
           .animate({fontSize: "0.8vw"}, 700)
           .animate({top: "8%"}, 700).animate({left: "50%"}, 700)
@@ -76,7 +78,8 @@ $(document).ready(function() {
               window.location.replace("../about/index.html")
           }, 2000
         )
-      })
+      });
+
 });
 
 // change box color on hover

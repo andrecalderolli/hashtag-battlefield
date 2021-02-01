@@ -191,6 +191,32 @@
   width: 12.5%;
 }
 
+.icon1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-image: url("../assets/polimi-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-image: url("../assets/density-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .off {
   opacity: 0;
 }
@@ -234,4 +260,11 @@
 .name p {
   font-weight: normal;
   width: 70%;
+}
+
+#box25 {
+  background-image: url("../assets/arrow.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
