@@ -73,14 +73,14 @@
 }
 
 #image-first {
-  background-image: url("../assets/imgfirst.png");
+  background-image: url("../assets/imgfirst.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 #image-second {
-  background-image: url("../assets/imgsecond.png");
+  background-image: url("../assets/imgsecond.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
