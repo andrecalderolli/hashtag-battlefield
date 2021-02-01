@@ -138,7 +138,6 @@ function changeMonth() {
     );
     //$(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
   //  $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media1", 800);
-    $("#media-box").addClass("media2", 800, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media2' onclick='popupMedia()'></button>");
     setTimeout(
       function() {
         $(".narrator-text").empty();
@@ -158,14 +157,16 @@ function changeMonth() {
       }, 501
     );
   //  $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
-    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media2", 300);
     setTimeout(
       function() {
         $(".narrator-text").empty();
         $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 300)
       }
     , 400)
+  } if (clicks == 9) {
+      $("#media-box").addClass("media1", 800, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media1' onclick='popupMedia()'></button>");
   } if (clicks == 10) {
+    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media1", 300);
     $("#date-container").children().remove();
     $("#date-container").wrap("<a href='../menu/index.html'></a>");
     $("#date-container").css("background-color", "#ffd600").addClass("return").append("<p class='next'>< MENU</p>");

@@ -8,8 +8,8 @@
       </div>
     </div>
     <div class="popup-overlay2">
+      <div class="close-btn2"></div>
       <div class="popup-box">
-        <div class="close-btn2"></div>
         <div class="media-content">
           <!--<div class="tweet-media"><img src="img-tweet-test.png" class="tweet-image"></div>
           <div class="tweet-text"><p class="paragraph">Not <span class="link">#Antifa</span> but <span class="link">#ProudBoys</span> dressed like Antifa. Is <span class="link">@RealDonaldTrump</span> stupid enough to fall for it or is he part of it?</p></div>-->
