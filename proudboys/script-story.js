@@ -112,10 +112,7 @@ function changeMonth() {
       function() {
         $("#content-wraper2").css("visibility", "hidden");
       }, 501
-    )
-  //  $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+    );
     $("#media-box").css("opacity", 0).addClass("media1", 300, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media1' onclick='popupMedia()'></button>");
     setTimeout(
       function() {
@@ -129,57 +126,65 @@ function changeMonth() {
     $(".month").empty();
     $(".month").append("Oct");
     $(".number-tweets").empty().append("109K tweets");
-    $("#content-wraper").addClass("inner-glow1");
-  //  $("#narrator-box").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#date-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#number-tweets-container").animate({backgroundColor: "rgba(255,102,121,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-    $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
-    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media1", 800);
-    $("#media-box").addClass("media2", 800, "swing").animate({opacity: 0.6}, 800).append("<button class='clickable' id='media2' onclick='popupMedia()'></button>");
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    );
+    $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 300);
+    $("#media-box").empty().removeClass("media1");
+    $("#media-box").addClass("media2", 800, "swing").animate({opacity: 0.6}, 300).append("<button class='clickable' id='media2' onclick='popupMedia()'></button>");
     setTimeout(
       function() {
         $(".narrator-text").empty();
-        $(".narrator-text").load("narration/narration3.xml").animate({opacity: 1}, 800)
+        $(".narrator-text").load("narration/narration3.xml").animate({opacity: 1}, 800);
+        $(".date-fixed").animate({opacity: 1}, 300)
       }
-    , 900)
+    , 400)
   } if (clicks == 12) {
     $(".month").empty();
     $(".month").append("Nov");
-  //  $(".number-tweets").empty().append("19K tweets");
-  //  $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    );
     $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
     $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
-    $("#media-box").empty().animate({opacity: 0}, 800).removeClass("media2", 800);
+    $("#media-box").empty().removeClass("media2").animate({opacity: 1}, 500);
     setTimeout(
       function() {
         $(".narrator-text").empty();
-        $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 800)
+        $(".narrator-text").load("narration/narration4.xml").animate({opacity: 1}, 800);
+        $(".date-fixed").animate({opacity: 1}, 300)
       }
-    , 900)
+    , 400)
   } if (clicks == 17) {
     $(".month").empty();
     $(".month").append("Dec");
-  //  $("#narrator-box").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#date-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
-  //  $("#number-tweets-container").animate({backgroundColor: "rgba(69,104,233,0.5)"}, 300).animate({backgroundColor: "#efefef"}, 300);
+    $("#content-wraper2").css("visibility", "visible").css("opacity", 1).animate({opacity: 0}, 500);
+    setTimeout(
+      function() {
+        $("#content-wraper2").css("visibility", "hidden");
+      }, 501
+    );
     $(".number-tweets").empty().append("13K tweets");
     $(".narrator-text").css("opacity", 1).animate({opacity: 0}, 800);
     setTimeout(
       function() {
         $(".narrator-text").empty();
-        $(".narrator-text").load("narration/narration5.xml").animate({opacity: 1}, 800)
+        $(".narrator-text").load("narration/narration5.xml").animate({opacity: 1}, 800);
+        $(".date-fixed").animate({opacity: 1}, 300)
       }
-    , 900)
+    , 400)
   } if (clicks == 19) {
     $("#date-container").children().remove();
     $("#date-container").wrap("<a href='../menu/index.html'></a>")
     $("#date-container").css("background-color", "#4568e9").addClass("return").append("<p class='next'>< MENU</p>");
-  //  $("#media-box").css("opacity", 1).css("background-color", "#FF6679").append("<p class='next'>#millionMAGAmarch</p>");
-  //  $("#media-box2").css("background-color", "#FFD91A").append("<p class='next'>#SaveTheChildren</p>");
     $(".next").css("opacity", 0).animate({opacity: 1}, 800);
     $("#number-tweets-container").empty();
-  //  $("#number-tweets-container").append("<p class='next'>download all the tweets</p>");
     $(".tweet").animate({backgroundColor: 'rgba(239,239,239,0.7)'}, 800);
     $(".invisible").animate({opacity: 1}, 800);
     setTimeout(
@@ -188,7 +193,7 @@ function changeMonth() {
         $(".narrator-text").empty().addClass("narrator-text-final");
         $(".narrator-text").load("narration/narrationfinal.xml").animate({opacity: 1}, 800)
       }
-    , 900)
+    , 400)
   }
 };
 

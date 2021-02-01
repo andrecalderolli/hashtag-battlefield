@@ -148,6 +148,15 @@
   overflow-x: hidden;
 }
 
+.narrator-box-final p {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  margin-left: 2vw;
+  margin-top: 3vh;
+}
+
 #date-container {
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
@@ -212,10 +221,6 @@
 .narrator-text {
   font-size: 1vw;
   width: 75%;
-}
-
-.narrator-text-final {
-  margin-top: 50%;
 }
 
 .clickHere {
@@ -285,6 +290,18 @@
   border-bottom: 2.5vh solid #efefef;
   /*box-shadow: 1px 1px 15px black;*/
   overflow: hidden;
+}
+
+.popup-box2 {
+  width: 90%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0);
+  text-align: center;
 }
 
 .popup-box3 {
