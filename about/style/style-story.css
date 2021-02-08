@@ -97,7 +97,7 @@
 
 #img3 {
   background-image: url("../assets/imagem3.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -105,6 +105,116 @@
   top: 525%;
   height: 125%;
   width: 37.5%;
+}
+
+#andre {
+  background-image: url("../assets/andre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 25%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#fer {
+  background-image: url("../assets/fer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 37.5%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#pri {
+  background-image: url("../assets/pri.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#julie {
+  background-image: url("../assets/julie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 62.5%;
+  top: 650%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#hannes {
+  background-image: url("../assets/hannes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 25%;
+  top: 675%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#mapi {
+  background-image: url("../assets/mapi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 37.5%;
+  top: 675%;
+  height: 25%;
+  width: 12.5%;
+}
+
+#helia {
+  background-image: url("../assets/helia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 675%;
+  height: 25%;
+  width: 12.5%;
+}
+
+.icon1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-image: url("../assets/polimi-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  background-image: url("../assets/density-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .off {
@@ -141,4 +251,20 @@
   font-weight: 500;
   font-size: 1.1vw;
   letter-spacing: 3pt;
+}
+
+.name {
+  text-align: left;
+}
+
+.name p {
+  font-weight: normal;
+  width: 70%;
+}
+
+#box25 {
+  background-image: url("../assets/arrow.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

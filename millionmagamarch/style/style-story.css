@@ -306,6 +306,19 @@
   overflow: hidden;
 }
 
+.popup-box2 {
+  height: 97%;
+  width: 55%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0);
+  text-align: center;
+  pointer-events: none;
+}
+
 .popup-box3 {
   height: 35%;
   width: 55%;
@@ -323,6 +336,10 @@
   overflow: hidden;
 }
 
+iframe {
+  pointer-events: auto;
+}
+
 .close-btn {
   height: 14.5%;
   width: 17.8%;
@@ -331,6 +348,7 @@
   right: 5px;
   z-index: 1000;
 }
+
 
 .close-btn3 {
   height: 50%;

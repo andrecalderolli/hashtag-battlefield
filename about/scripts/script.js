@@ -44,10 +44,14 @@ function startStory() {
   $("h1").animate({opacity: 0}, 700);
 };
 
-$('.download-btn').click(function(e) {
-    e.preventDefault();  //stop the browser from following
-    window.location.href = '../assets/Database-A-Hashtag-Battlefield.xlsx';
-});
+$(".name").hover(
+  function() {
+    $(this).animate({opacity: 0}, 300)
+  },
+  function() {
+    $(this).animate({opacity: 1}, 300)
+  }
+);
 
 $(".startbtn").click(function(){
   startStory();
