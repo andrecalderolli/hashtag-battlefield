@@ -156,7 +156,7 @@
 }
 
 #hannes {
-  background-image: url("../assets/hannes.jpg");
+  background-image: url("../assets/mapi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -168,7 +168,7 @@
 }
 
 #mapi {
-  background-image: url("../assets/mapi.jpg");
+  background-image: url("../assets/hannes.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
