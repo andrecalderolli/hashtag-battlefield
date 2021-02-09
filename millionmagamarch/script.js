@@ -10,7 +10,11 @@ $(document).ready(function() {
       $(".box").width(width / 8 - 2);
       $(".box2").width(width / 4 - 2);
       $(".box3").width(3 * width / 8 - 2);
-      $("#title").css("margin-top", height / 5).css("margin-left", width / 3.8)
+      $("#title").css("margin-top", height / 5).css("margin-left", width / 3.8);
+      $(".box").css("max-width", $("#wraper").width() / 8);
+      $(".box2").css("max-width", $("#wraper").width() / 4);
+      $(".box3").css("max-width", 3 * $("#wraper").width() / 8);
+      $("#box8").css("max-width", $("#wraper").width() / 4);
     }).resize();
 });
 
