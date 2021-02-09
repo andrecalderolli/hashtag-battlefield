@@ -203,6 +203,7 @@ function changeMonth() {
     $("#number-tweets-container").empty();
     $(".tweet").animate({backgroundColor: 'rgba(239,239,239,0.7)'}, 800);
     $(".invisible").animate({opacity: 1}, 800);
+    $(".exit-btn").remove();
     setTimeout(
       function() {
         $("#narrator-box").addClass("narrator-box-final");
@@ -224,5 +225,28 @@ $("#media-box").hover(
     $(this).animate({opacity: 1}, 600);
   }, function() {
     $(this).animate({opacity: 0.6}, 600);
+  }
+)
+
+
+
+$(".exit-btn").hover(
+  function() {
+    $(".exit-btn").animate({
+      width: "12.5%",
+      height: "25%",
+      opacity: 1
+    }, 400);
+    $(".exit-btn").children("p").empty();
+    $(".exit-btn").children("p").append("<<span>MENU</span>")
+  },
+  function() {
+    $(".exit-btn").animate({
+      width: "35px",
+      height: "35px",
+      opacity: 0.7
+    }, 400);
+    $(".exit-btn").children("p").empty();
+    $(".exit-btn").children("p").append("<");
   }
 )
