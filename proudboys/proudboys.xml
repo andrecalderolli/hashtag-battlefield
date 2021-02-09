@@ -51,7 +51,7 @@
       <div id="tweet15" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
       <div id="tweet4" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
       <div id="tweet10" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
-      <div id="box-story8" class="box-story"></div>
+      <div id="tweet11" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
       <div id="box-story9" class="box-story"></div>
       <div id="tweet1" class="box-story tweet clickNext"><p class="clickHere">Click<br>Here</p><p class="date invisible"><span class="day">31</span><br><span class="month2">May</span></p></div>
       <div id="tweet3" class="box-story tweet"><p class="date invisible"><span class="day">30</span><br><span class="month2">Sep</span></p></div>
@@ -64,7 +64,7 @@
       <div id="tweet13" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
       <div id="box-story19" class="box-story"></div>
       <div id="box-story20" class="box-story"></div>
-      <div id="tweet11" class="box-story tweet"><p class="date invisible"><span class="day">04</span><br><span class="month2">Oct</span></p></div>
+      <div id="box-story21" class="box-story"></div>
       <div id="tweet14" class="box-story tweet"><p class="date invisible"><span class="day">14</span><br><span class="month2">Nov</span></p></div>
       <div id="tweet18" class="box-story tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
       <div id="tweet17" class="box-story tweet"><p class="date invisible"><span class="day">13</span><br><span class="month2">Dec</span></p></div>
