@@ -116,6 +116,10 @@ p.title {
   /*transform: translate(-50%, -50%);*/
 }
 
+.boxX {
+  opacity: 0;
+}
+
 .photo3 {
   display: inline-block;
   box-sizing: border-box;

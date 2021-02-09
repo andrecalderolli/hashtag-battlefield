@@ -157,7 +157,7 @@
 
 #hannes {
   background-image: url("../assets/mapi.jpg");
-  background-size: cover;
+  background-size: 132%;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -215,6 +215,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 0;
 }
 
 .off {
@@ -255,6 +256,10 @@
 
 .name {
   text-align: left;
+}
+
+.name:hover {
+  cursor: default;
 }
 
 .name2 {

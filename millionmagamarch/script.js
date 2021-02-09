@@ -18,7 +18,8 @@ function startStory() {
   $("#box8").animate({width: 2 * $("#box1").width() + 4, height: 2 * $("#box1").height() + 4}, 2000);
 //  $(".homebtn").animate({backgroundColor: "#efefef"}, 1000);
   $(".box3").addClass("invisible", 700);
-  $(".box3").animate({width: $("#box18").width() / 3 + 1}, 1600);
+  //$(".box3").animate({width: $("#box18").width() / 3 + 1}, 1600);
+  $(".box3").remove();
   $(".title-line").animate({height: "100%"}, 1300);
   $(".box").removeClass("off", 700, "swing");
   $("#image-open").animate({opacity: 0}, 700);
