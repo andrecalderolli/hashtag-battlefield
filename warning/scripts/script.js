@@ -24,10 +24,10 @@ $(document).ready(function() {
 
       $(".launch-video").hover(
         function() {
-          $(".launch-video").animate({opacity: 0.7},300)
+          $(".launch-video").animate({backgroundColor: "rgba(255, 143, 157)"},300)
         },
         function() {
-          $(".launch-video").animate({opacity: 1},300)
+          $(".launch-video").animate({backgroundColor: "rgb(255, 100, 119)"},300)
         }
       )
 
@@ -46,6 +46,7 @@ $(document).ready(function() {
         $("#box31").removeClass("invisible2");
         $("#box32").removeClass("invisible2");
         $("#box33").removeClass("invisible2");
+        $("#box34").removeClass("invisible2");
         $("#wraper").css("pointer-events", "none");
         $("#box1").css("pointer-events", "auto");
         $("#title")
