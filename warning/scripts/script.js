@@ -32,17 +32,17 @@ $(document).ready(function() {
       )
 
       $(".launch-video").click(function () {
-        $("#box10").animate({opacity: 0}, 400);
-        $("#box11").animate({opacity: 0}, 600);
-        $("#box12").animate({opacity: 0}, 800);
-        $("#box13").animate({opacity: 0}, 1000);
-        $("#box18").animate({opacity: 0}, 1200);
+        $("#box11").animate({opacity: 0}, 400);
+        $("#box12").animate({opacity: 0}, 600);
+        $("#box13").animate({opacity: 0}, 800);
+        $("#box14").animate({opacity: 0}, 1000);
+        $("#box15").animate({opacity: 0}, 1200);
         $("#box19").animate({opacity: 0}, 1400).remove();
       //  $("#box4").animate({width: 2 * $("#box4").width() + 4}, 700).css("max-width", $("#wraper") / 4);
-        $("#box20").animate({opacity: 0}, 700);
         $("#box21").animate({opacity: 0}, 700);
         $("#box22").animate({opacity: 0}, 700);
         $("#box23").animate({opacity: 0}, 700);
+        $("#box24").animate({opacity: 0}, 700);
         $("#box31").removeClass("invisible2");
         $("#box32").removeClass("invisible2");
         $("#box33").removeClass("invisible2");
