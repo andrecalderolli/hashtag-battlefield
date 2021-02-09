@@ -65,15 +65,16 @@ $(document).ready(function() {
       });
 
       $("video").on("ended", function () {
-        $("#box10").animate({opacity: 1}, 400);
-        $("#box11").animate({opacity: 1}, 600);
-        $("#box12").animate({opacity: 1}, 800);
-        $("#box13").animate({opacity: 1}, 1000);
-        $("#box18").animate({opacity: 1}, 1200);
+        $("#box11").animate({opacity: 1}, 400);
+        $("#box12").animate({opacity: 1}, 600);
+        $("#box13").animate({opacity: 1}, 800);
+        $("#box14").animate({opacity: 1}, 1000);
+        $("#box15").animate({opacity: 1}, 1200);
         $("#box20").animate({opacity: 1}, 1300);
         $("#box21").animate({opacity: 1}, 1600);
         $("#box22").animate({opacity: 1}, 1800);
         $("#box23").animate({opacity: 1}, 1800);
+        $("#box24").animate({opacity: 1}, 1800);
         setTimeout(
           function() {
               window.location.replace("../about/index.html")
